@@ -1,0 +1,12 @@
+test_bounds_and_yaw_are_preserved (__main__.Tests.test_bounds_and_yaw_are_preserved) ... ok
+test_mirrored_linkage_uses_same_pwm_for_opposite_rod_movement (__main__.Tests.test_mirrored_linkage_uses_same_pwm_for_opposite_rod_movement) ... ok
+test_no_inversion_assumed_when_mapping_is_unverified (__main__.Tests.test_no_inversion_assumed_when_mapping_is_unverified) ... ok
+test_offset_midpoint_uses_common_available_stroke (__main__.Tests.test_offset_midpoint_uses_common_available_stroke) ... ok
+test_parallel_polarities_remain_supported (__main__.Tests.test_parallel_polarities_remain_supported) ... ok
+test_shared_step_stops_both_at_first_limit (__main__.Tests.test_shared_step_stops_both_at_first_limit) ... ok
+test_two_side_presets_use_equal_safe_stroke_and_allow_independent_reduction (__main__.Tests.test_two_side_presets_use_equal_safe_stroke_and_allow_independent_reduction) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK

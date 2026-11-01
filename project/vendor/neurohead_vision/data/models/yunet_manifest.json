@@ -1,0 +1,6 @@
+﻿{
+    "model_url":  "https://media.githubusercontent.com/media/opencv/opencv_zoo/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx",
+    "license_url":  "https://raw.githubusercontent.com/opencv/opencv_zoo/main/models/face_detection_yunet/LICENSE",
+    "sha256":  "8F2383E4DD3CFBB4553EA8718107FC0423210DC964F9F4280604804ED2552FA4",
+    "downloaded_utc":  "2026-10-18T02:57:25.9590045Z"
+}

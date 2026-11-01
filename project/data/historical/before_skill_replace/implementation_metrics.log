@@ -1,0 +1,11 @@
+{
+  "luts": 7033,
+  "registers": 3780,
+  "wns_ns": 5.432,
+  "tns_ns": 0.0,
+  "setup_failing_endpoints": 0,
+  "whs_ns": 0.1,
+  "clock_period_ns": 20.0,
+  "clock_mhz": 50.0,
+  "scope": "implementation report; not measured board Fmax"
+}

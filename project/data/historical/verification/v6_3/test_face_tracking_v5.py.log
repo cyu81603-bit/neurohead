@@ -1,0 +1,16 @@
+test_constant_voice_has_repeated_open_close_not_constant_open (__main__.ArticulationTests.test_constant_voice_has_repeated_open_close_not_constant_open) ... ok
+test_lips_return_close_and_brows_cheeks_share_speech_energy (__main__.ArticulationTests.test_lips_return_close_and_brows_cheeks_share_speech_energy) ... ok
+test_real_silence_stays_closed_regardless_of_character_metadata (__main__.ArticulationTests.test_real_silence_stays_closed_regardless_of_character_metadata) ... ok
+test_lower_lids_stay_open_during_blink_when_not_paired (__main__.BlinkTests.test_lower_lids_stay_open_during_blink_when_not_paired) ... ok
+test_opposite_pwm_polarities_have_same_normalized_closure (__main__.BlinkTests.test_opposite_pwm_polarities_have_same_normalized_closure) ... ok
+test_tracking_blink_is_shallow_and_bilateral (__main__.BlinkTests.test_tracking_blink_is_shallow_and_bilateral) ... ok
+test_unverified_pair_or_camera_does_not_blink_automatically (__main__.BlinkTests.test_unverified_pair_or_camera_does_not_blink_automatically) ... ok
+test_enable_expression_keeps_tracking_and_coordinator (__main__.IsolationTests.test_enable_expression_keeps_tracking_and_coordinator) ... ok
+test_fresh_vision_checked_during_entire_blink (__main__.IsolationTests.test_fresh_vision_checked_during_entire_blink) ... ok
+test_head_fields_are_identical_with_expression_and_speech (__main__.IsolationTests.test_head_fields_are_identical_with_expression_and_speech) ... ok
+test_single_face_preview_does_not_switch_gaze_to_manual (__main__.IsolationTests.test_single_face_preview_does_not_switch_gaze_to_manual) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.033s
+
+OK

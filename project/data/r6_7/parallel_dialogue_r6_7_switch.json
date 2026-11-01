@@ -1,0 +1,27 @@
+{
+  "epoch": 1793447361.3533428,
+  "old_pid": 21508,
+  "old_closed": true,
+  "stopped": true,
+  "queries": [
+    {
+      "status": 0,
+      "active_mask": 0,
+      "sequence": 365413,
+      "accepted": 365413
+    },
+    {
+      "status": 0,
+      "active_mask": 0,
+      "sequence": 365413,
+      "accepted": 365413
+    },
+    {
+      "status": 0,
+      "active_mask": 0,
+      "sequence": 365413,
+      "accepted": 365413
+    }
+  ],
+  "operator_support_confirmed": true
+}

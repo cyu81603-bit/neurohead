@@ -1,0 +1,224 @@
+{
+  "epoch": 1793442573.9111743,
+  "hardware_io": false,
+  "results": [
+    {
+      "text": "wink",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "reply": "那 wink 一下。",
+      "reason": "用户明确请求眨眼动作",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 2265.0
+    },
+    {
+      "text": "请你做一个wink",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "reply": "好的，那我给你 wink 一下。",
+      "reason": "用户明确请求执行 wink 动作",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1766.0
+    },
+    {
+      "text": "wink一下",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "reply": "好呀，那我 wink 一下。",
+      "reason": "用户明确请求眨眼动作",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1609.0
+    },
+    {
+      "text": "眨一只眼",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "reply": "好嘞，那我眨一下右眼~ wink！",
+      "reason": "用户明确请求单眼眨眼",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1782.0
+    },
+    {
+      "text": "请用右眼wink",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "reply": "好嘞，给你 wink 一下～",
+      "reason": "用户明确指定右眼眨眼",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1750.0
+    },
+    {
+      "text": "请用左眼wink",
+      "expected": [],
+      "actions": [],
+      "reply": "抱歉，左眼 wink 会挡住摄像头，不支持哦。",
+      "reason": "用户明确指定左眼眨眼",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1641.0
+    },
+    {
+      "text": "用左眼眨一下",
+      "expected": [],
+      "actions": [],
+      "reply": "抱歉呀，左眼没法眨动哦，只能动右眼。",
+      "reason": "用户明确指定左眼眨眼",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1875.0
+    },
+    {
+      "text": "不要wink",
+      "expected": [],
+      "actions": [],
+      "reply": "收到啦，那就不眨眼了。",
+      "reason": "用户明确否定眨眼动作",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1531.0
+    },
+    {
+      "text": "wink是什么意思？",
+      "expected": [],
+      "actions": [],
+      "reply": "“ wink\"就是眨一下眼睛打招呼的意思。  \n如果是指我，那我用右眼给你眨一下。",
+      "reason": "询问含义，非动作请求",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1750.0
+    },
+    {
+      "text": "不要左眼，用右眼wink",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "reply": "好的，那就用右眼 wink 一下。",
+      "reason": "用户明确指定使用右眼眨眼",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1844.0
+    },
+    {
+      "text": "你刚说左眼不能wink，那就wink一下",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "reply": "刚才说的是左眼会挡住摄像头没法动，不过你让我 wink 的话，我这就眨下右眼给你看。",
+      "reason": "用户明确请求右眼眨眼",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": false,
+      "passed": false,
+      "latency_ms": 2109.0
+    },
+    {
+      "text": "别wink，笑一下",
+      "expected": [
+        "smile"
+      ],
+      "actions": [
+        "smile"
+      ],
+      "reply": "好嘞，那我笑一个给你看。",
+      "reason": "用户明确否定wink并请求微笑",
+      "backend": "ollama",
+      "history_case": false,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1828.0
+    },
+    {
+      "text": "请用左眼wink",
+      "expected": [],
+      "actions": [],
+      "reply": "抱歉呀，左眼 wink 会被摄像头挡住，我这边暂时不支持，只能给你眨右眼哦。",
+      "reason": "用户明确指定左眼眨眼",
+      "backend": "ollama",
+      "history_case": true,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 1875.0
+    },
+    {
+      "text": "那就wink一下",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "reply": "好呀，给你眨个右眼 wink 吧～",
+      "reason": "用户指代最近请求，因历史明确左眼不支持，故恢复默认右眼。",
+      "backend": "ollama",
+      "history_case": true,
+      "action_passed": true,
+      "spoken_side_passed": true,
+      "passed": true,
+      "latency_ms": 2219.0
+    }
+  ]
+}

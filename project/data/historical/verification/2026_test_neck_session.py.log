@@ -1,0 +1,7 @@
+test_heartbeat_continues_without_gui_polling_and_io_stays_on_worker (__main__.Tests.test_heartbeat_continues_without_gui_polling_and_io_stays_on_worker) ... ok
+test_timed_out_late_start_does_not_emit_motion (__main__.Tests.test_timed_out_late_start_does_not_emit_motion) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 3.017s
+
+OK

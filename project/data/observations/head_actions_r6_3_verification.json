@@ -1,0 +1,45 @@
+{
+  "revision": "R6.3",
+  "action_execution_revision": 4,
+  "control_tests": 113,
+  "integration_tests": 37,
+  "gui_idle_selftests": 2,
+  "passed": true,
+  "deployment_pending": false,
+  "hardware_motion_sent": false,
+  "physical_acceptance_pending": true,
+  "eye_delta_us": 300,
+  "eye_gesture_rate_us_per_s": 300,
+  "head_gesture_rates_us_per_s": [
+    120,
+    100
+  ],
+  "normal_tracking_rates_unchanged": true,
+  "neck_envelope_unchanged": true,
+  "reference_duration_s": {
+    "eyes_up": 3.4,
+    "head_up": 3.65,
+    "shake_head": 5.633
+  },
+  "epoch": 1793436431.778734,
+  "deployed_pid": 43048,
+  "deployed_epoch": 1793436528.7513564,
+  "runtime": {
+    "owner_pid": 43048,
+    "mode": "idle",
+    "life_state": "off",
+    "action_library_enabled": false,
+    "action_execution_revision": 4,
+    "eye_gesture": {
+      "delta_us": 300,
+      "rate_us_per_s": 300
+    },
+    "head_gesture": {
+      "yaw_rate_us_per_s": 120,
+      "pitch_rate_us_per_s": 100
+    },
+    "camera_lid_guard_revision": 1,
+    "wink_side": "right",
+    "error": ""
+  }
+}

@@ -1,0 +1,10 @@
+test_cross_language (__main__.ProtocolTests.test_cross_language) ... ok
+test_dry_run_and_query_loopback (__main__.ProtocolTests.test_dry_run_and_query_loopback) ... ok
+test_profile_defaults_no_motion (__main__.ProtocolTests.test_profile_defaults_no_motion) ... ok
+test_telemetry_crc (__main__.ProtocolTests.test_telemetry_crc) ... ok
+test_unverified_profile_rejected (__main__.ProtocolTests.test_unverified_profile_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.354s
+
+OK

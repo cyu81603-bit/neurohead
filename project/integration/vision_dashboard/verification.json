@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-31",
+  "tests_passed": 7,
+  "gui_idle_self_test": true,
+  "protected_files_unchanged": true,
+  "protected_files": {
+    "config/lifelike_v6.json": "ce0572b111779b37b457f8f402add6fdde01bbfbc2c7411af8f3a387c1055e31",
+    "build/firmware/nh22_udp.bin": "3c77efab811dcc82bbd660123b3a5be7f8f0053882a9e0a068c8186832e76e6f",
+    "build/reports/zynq_neurohead/neurohead_zynq.bit": "535d2a37ab01f9ffa5b005ba8ce62ae4eac23fcf341d2a404a89460d09c91fbb",
+    "src/pc/lifelike_control.py": "1256731876d1b5553eb33e9d1d058a37373c4742b2c74a5eb90438577faeccba",
+    "integration/embodied/embodied_app.py": "17e461e9a4a56e00436122b5134af289abf9b44a9aff0b3b94b7b91d3108ab7a"
+  },
+  "board_commands_sent": 0,
+  "camera_capture_started": false,
+  "running_control_restarted": false,
+  "ui_entry_added_for_next_launch": true,
+  "live_shared_source_verified": true,
+  "frontal_mode_condition_tested": true,
+  "architecture_route": "existing_pc_arm_fpga_no_migration"
+}

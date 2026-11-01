@@ -1,0 +1,195 @@
+{
+  "follow_design": "eyes_track_image_center_fast_neck_recenters_eye_offset_slowly_after_neck_calibration",
+  "geometry": "yaw_plus_two_coupled_pitch_roll",
+  "commissioning_stage": "v5_side_balance_operator_confirmed_neck_manual_baseline",
+  "roll_mix_signs": null,
+  "pair_mixing_verified": false,
+  "pitch_mix_signs": null,
+  "yaw_reference_operator_verified": true,
+  "schema": 1,
+  "operator_geometry_report": "一只负责左右，两只负责联合俯仰/侧倾，你进行分配接口",
+  "yaw_operator_report": "明显双向转头并回中，全程顺畅",
+  "loaded_linkage_stop_policy": "must_support_head_before_global_PWM_stop",
+  "current_neck_power": "all_three_external_5v_on_signals_pin21_22_23_operator_confirmed",
+  "model": "6835MG",
+  "slots": [
+    {
+      "package_pin": "V18",
+      "direction": null,
+      "min_us": null,
+      "channel": 18,
+      "signal_pin": 21,
+      "connector": "J10",
+      "mechanical_verified": false,
+      "joint": "neck_yaw",
+      "id": "N01",
+      "neutral_us": 1500,
+      "max_us": null,
+      "observed_min_us": 1100,
+      "observed_max_us": 1900,
+      "bounded_loaded_span_operator_verified": true
+    },
+    {
+      "package_pin": "V17",
+      "direction": null,
+      "min_us": null,
+      "channel": 19,
+      "signal_pin": 22,
+      "side_definition": "robot_own_left",
+      "mechanical_verified": false,
+      "joint": "neck_pair_left",
+      "id": "N02",
+      "connector": "J10",
+      "neutral_us": 1270,
+      "max_us": null
+    },
+    {
+      "package_pin": "T15",
+      "direction": null,
+      "min_us": null,
+      "channel": 20,
+      "signal_pin": 23,
+      "side_definition": "robot_own_right",
+      "mechanical_verified": false,
+      "joint": "neck_pair_right",
+      "id": "N03",
+      "connector": "J10",
+      "neutral_us": 1500,
+      "max_us": null
+    }
+  ],
+  "enabled": false,
+  "yaw_loaded": true,
+  "mapping_basis": "user_confirmed_geometry_and_requested_interface_assignment",
+  "linkage_photo": "C:\\Users\\ASUS\\Downloads\\IMG_20261025_201235.jpg",
+  "yaw_reference_pulse_us": 1500,
+  "loaded_first_pulse_requested_by_operator": true,
+  "loaded_first_pulse_request": "直接动",
+  "yaw_signal_wiring_operator_confirmed": true,
+  "head_supported_operator_confirmed": true,
+  "loaded_first_pulse_result": "build/neck_yaw_first_loaded.result.json",
+  "loaded_first_pulse_digital_checks_passed": true,
+  "last_confirmed_pwm_active_mask": 0,
+  "loaded_first_pulse_operator_report": "没有明显转动，也无异常",
+  "loaded_yaw_probe_requested_limits_us": [
+    1100,
+    1900
+  ],
+  "loaded_yaw_probe_request": "1100／1500／1900μs",
+  "yaw_reference_pose_description": "returned_to_observed_midpoint_anatomical_forward_not_explicitly_confirmed",
+  "yaw_observed_loaded_span_us": [
+    1100,
+    1900
+  ],
+  "yaw_loaded_span_evidence": "build/neck_yaw_loaded_1100_1900.result.json",
+  "yaw_loaded_span_evidence_sha256": "5b27b5b8a305c018b492b2ae8e66e9b3ed7aa038aa8f1ce79d75732daaa44a61",
+  "pair_first_midpoint_planned_us": 1500,
+  "pair_first_midpoint_duration_s": 0.2,
+  "pair_signal_wiring_operator_confirmed": true,
+  "pair_first_midpoint_result": "build/neck_pair_first_1793001315174590600.result.json",
+  "pair_first_output_operator_report": "没有明显动作，也无异常",
+  "pair_first_output_no_abnormal_operator_confirmed": true,
+  "pair_reference_us": [
+    1270,
+    1500
+  ],
+  "pair_reference_basis": "first_short_output_no_abnormal_not_measured_mechanical_midpoint",
+  "pair_common_requested_limits_us": [
+    1100,
+    1900
+  ],
+  "pair_common_request": "1100-1900",
+  "pair_common_operator_report": "主要是抬头／低头，顺畅回中",
+  "pair_common_observed_axis": "pitch",
+  "pair_common_loaded_span_operator_verified": true,
+  "pair_common_result": "build/neck_pair_common_1793001477469776000.result.json",
+  "pair_pitch_basis": null,
+  "pair_pitch_positive_direction": null,
+  "eye_assembly_installed_on_head": true,
+  "eye_camera_rigidly_on_head_operator_confirmed": false,
+  "eye_assembly_operator_report": "眼睛已装回，USB Cam随眼球左右和上下转动",
+  "operator_structure_description": "pin22和pin23所用的舵机就像人体脖子的胸锁乳突肌",
+  "head_support_does_not_restrict_roll_operator_confirmed": true,
+  "pair_differential_operator_report": "重放后还是主要抬头／低头，两侧都能明确看到动作",
+  "pair_left_only_requested_limits_us": [
+    1100,
+    1900
+  ],
+  "pair_left_only_request": "1100-1900（逐只辨识阶段再次明确）",
+  "pair_right_only_requested_limits_us": [
+    1100,
+    1900
+  ],
+  "pair_differential_results": [
+    "build/neck_pair_differential_1793001566787170200.result.json",
+    "build/neck_pair_differential_1793001951559976500.result.json"
+  ],
+  "pair_left_only_result": "build/neck_pair_left_only_1793003004916218500.result.json",
+  "eye_camera_mount_status": "moves_with_eyeball_operator_confirmed_head_follow_v1",
+  "left_rod_positive_is_up": false,
+  "right_rod_positive_is_up": true,
+  "left_rod_operator_report": "v2固定姿态：Pin22=1900、Pin23=1500，左侧银色舵盘球头下降",
+  "right_rod_operator_report": "Pin23=1900时右杆向上，往返顺畅",
+  "pair_left_only_operator_report": "从机器人角度是左侧舵机抬杆上下移动；1900时向上",
+  "pair_right_only_result": "build/neck_pair_right_only_1793003514604427900.result.json",
+  "pair_upper_platform_connected_operator_confirmed": true,
+  "pair_upper_platform_report": "两杆已接同一个可动头架，中间有关节",
+  "manual_control_scope": "neck_only_rod_level_pause_and_fault_preserve_holding",
+  "rod_direction_status": "fixed_pose_confirmed_opposite_left_right_polarities",
+  "rod_directions_operator_verified": true,
+  "combination_conflict_operator_report": "右高左低两杆一起上，反向组合两杆一起下",
+  "rod_up_pwm_signs": [
+    -1,
+    1
+  ],
+  "pair_roll_basis_candidate": [
+    -1,
+    -1
+  ],
+  "pair_pitch_basis_candidate": [
+    -1,
+    1
+  ],
+  "pair_common_axis_report_status": "historical_dynamic_observation_not_used_as_verified_pose_mapping_after_polarity_recheck",
+  "manual_neck_reference_us": [
+    1500,
+    1270,
+    1500
+  ],
+  "left_rod_reference_operator_report": "Pin22在1270才是电气中位（按操作者实测作为标定参考）",
+  "manual_reference_pose_operator_verified": true,
+  "manual_reference_pose_operator_report": "已切换v3，中位姿态合适",
+  "manual_reference_verified_us": [
+    1500,
+    1270,
+    1500
+  ],
+  "manual_reference_pose_evidence": "build/neck_reference_1270_operator_verified.json",
+  "basic_bidirectional_side_tilt_operator_verified": true,
+  "basic_side_tilt_operator_report": "头架能明确向两侧倾斜，动作顺畅",
+  "basic_side_tilt_reference_us": [
+    1500,
+    1270,
+    1500
+  ],
+  "logical_ui_center": 1500,
+  "logical_ui_limits": [
+    1100,
+    1900
+  ],
+  "logical_ui_mapping": "piecewise_calibrated_center_preserves_physical_1100_1900_endpoints",
+  "logical_ui_pin22_center_actual_us": 1270,
+  "side_presets_balanced": true,
+  "side_preset_spans_us": {
+    "left_up_right_down": 170,
+    "left_down_right_up": 170
+  },
+  "side_balance_operator_request": "左升右降幅度明显小于左降右升，需要调整",
+  "side_balance_status": "operator_confirmed_similar_amplitude_keep_170us",
+  "side_balance_operator_verified": true,
+  "side_balance_operator_report": "两侧幅度已接近，先这样用",
+  "side_balance_verified_spans_us": {
+    "left_down_right_up": 170,
+    "left_up_right_down": 170
+  }
+}

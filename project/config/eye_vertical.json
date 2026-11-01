@@ -1,0 +1,51 @@
+{
+  "full_mechanical_range_verified": false,
+  "approved_probe_span_us": null,
+  "loaded_neutral_operator_verified": false,
+  "assembled_at_1500_operator_confirmed": true,
+  "assembly_operator_report": "上下连杆已自然装回，眼睛朝前，舵机保持断电",
+  "channel": 1,
+  "connector": "J10",
+  "signal_pin": 4,
+  "motion_inhibited": true,
+  "unloaded_evidence": "build/vertical_pin4_unloaded_success_20261025.json",
+  "joint": "eye_vertical",
+  "neutral_us": 1500,
+  "model": "MG90S",
+  "initial_tracking_requested_by_operator": true,
+  "initial_tracking_request": "参考左右，直接设计跟踪",
+  "initial_feedback_limits_us": [
+    1450,
+    1550
+  ],
+  "initial_max_rate_us_per_s": 50,
+  "basic_vertical_follow_operator_verified": true,
+  "simultaneous_tracking_requested_by_operator": true,
+  "simultaneous_tracking_request": "我现在想左右上下同时进行",
+  "loaded_trial_observation": "有点向上动后就不移动了",
+  "vertical_reference_is_camera_calibration": false,
+  "development_feedback_limits_us": [
+    1000,
+    2000
+  ],
+  "development_max_rate_us_per_s": 100,
+  "controller_basis": "same Feedback formula and gain as working horizontal axis; use face y, image-center target",
+  "operator_latest_report": "1100–1900μs上下双向跟随已确认，操作者明确要求新范围1000–2000μs；新范围待实物验收",
+  "waveform_test_requested": false,
+  "scope_test_cancelled_by_operator": true,
+  "physical_range_expansion_verified": false,
+  "output_quantum_us": 10,
+  "output_slew_us_per_frame": 10,
+  "effective_step_hypothesis_verified": false,
+  "normal_wiring_operator_confirmed": true,
+  "matching_horizontal_span_requested_by_operator": true,
+  "matching_horizontal_span_request": "我知道了你上下设置运动的幅度太小了，和左右运动的幅度应该差不多",
+  "basic_vertical_follow_verified_limits_us": [
+    1100,
+    1900
+  ],
+  "basic_vertical_follow_operator_report": "可以了，但是幅度可以再稍微大一点",
+  "basic_vertical_follow_evidence": "build/vertical_follow_operator_success_1100_1900.json",
+  "additional_span_requested_by_operator": true,
+  "additional_span_request": "1000-2000"
+}

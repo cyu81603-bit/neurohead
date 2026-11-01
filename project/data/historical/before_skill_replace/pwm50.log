@@ -1,0 +1,2 @@
+NH22_50MHZ_PWM_PASS: 1500us high, 20ms period, reset suppresses PWM
+sim/tb_nh22_50mhz.sv:35: $finish called at 40000081000 (1ps)

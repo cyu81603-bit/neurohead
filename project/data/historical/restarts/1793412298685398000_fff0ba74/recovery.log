@@ -1,0 +1,137 @@
+检查专用有线网络；需要时会弹出Windows管理员提示
+NETWORK_ADMIN_PERMISSION_REQUESTED
+NETWORK_READY: 192.168.10.10/24 on 以太网
+校验文件并通过JTAG加载板卡，保持舵机断电
+attempting to launch hw_server
+
+****** Xilinx hw_server v2026.1
+  **** Build date : May 29 2026 at 14:55:19
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+INFO: hw_server application started
+INFO: Use Ctrl-C to exit hw_server application
+
+
+
+****** Xilinx hw_server v2026.1
+
+  **** Build date : May 29 2026 at 14:55:19
+
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+INFO: hw_server application started
+
+INFO: Use Ctrl-C to exit hw_server application
+
+
+
+
+INFO: To connect to this hw_server instance use url: TCP:127.0.0.1:3121
+
+
+
+PL_PHYSICAL_READBACK_BEFORE_APP
+4000000C:   00000000
+40000010:   00000000
+40000014:   00000000
+40000018:   00000000
+4000001C:   00000000
+
+MONITOR_BINARY_JTAG_LAUNCHED: F:/NeuroHead/builds/nh22_v26_1029/build/firmware/nh22_udp.bin
+QUERY_ONLY_NEXT: 192.168.10.20:5005
+Loaded development image. Run query only before connecting a servo.
+检查板卡通信及PWM关闭状态
+Traceback (most recent call last):
+  File "F:\NeuroHead\builds\nh22_v26_1029\src\pc\probe_board.py", line 37, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "F:\NeuroHead\builds\nh22_v26_1029\src\pc\probe_board.py", line 16, in main
+    try:client=Client(a.host,bind=a.bind,timeout=2);break
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\NeuroHead\builds\nh22_v26_1029\src\pc\nh22.py", line 61, in __init__
+    state=self.exchange(query(timestamp=int(time.monotonic()*1000)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\NeuroHead\builds\nh22_v26_1029\src\pc\nh22.py", line 65, in exchange
+    data,peer=self.sock.recvfrom(2048)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+执行一次冷启动网络恢复（舵机仍断电）
+COLD_START_CPU_PC: pc: 0100ab7c
+
+COLD_START_RESUME_OK
+检查板卡通信及PWM关闭状态
+{
+  "read_only": true,
+  "motion_commands_sent": 0,
+  "configuration_commands_sent": 0,
+  "successful_queries": 10,
+  "last": {
+    "sequence": 0,
+    "status": 0,
+    "active_mask": 0,
+    "configured_mask": 0,
+    "accepted": 0,
+    "invalid": 0,
+    "stale": 0,
+    "watchdog_events": 0,
+    "echo_ms": 1505796,
+    "have_sequence": false,
+    "query": true,
+    "target_us": [
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500
+    ],
+    "output_us": [
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500,
+      1500
+    ]
+  },
+  "rtt_ms_min": 0.6498000000192405,
+  "rtt_ms_max": 2.1150000000034197
+}
+恢复完成：通信10次通过，PWM关闭；尚未发舵机配置或动作。

@@ -1,0 +1,7 @@
+test_busy_preflight_does_not_stop_other_controller (__main__.Tests.test_busy_preflight_does_not_stop_other_controller) ... ok
+test_lock_contention_never_connects_client (__main__.Tests.test_lock_contention_never_connects_client) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.012s
+
+OK

@@ -1,0 +1,20 @@
+test_recovery_asset_validation_allows_calibration_changes_but_rejects_image_tamper (__main__.AssetTests.test_recovery_asset_validation_allows_calibration_changes_but_rejects_image_tamper) ... ok
+test_active_or_invalid_telemetry_never_triggers_cpu_recovery (__main__.RecoveryTests.test_active_or_invalid_telemetry_never_triggers_cpu_recovery) ... ok
+test_busy_lock_blocks_programming (__main__.RecoveryTests.test_busy_lock_blocks_programming) ... ok
+test_calibration_files_not_modified (__main__.RecoveryTests.test_calibration_files_not_modified) ... ok
+test_check_only_never_loads_or_recovers_cpu (__main__.RecoveryTests.test_check_only_never_loads_or_recovers_cpu) ... ok
+test_check_only_timeout_does_not_reset_board (__main__.RecoveryTests.test_check_only_timeout_does_not_reset_board) ... ok
+test_gui_opens_idle_without_subprocess_or_checks_selected (__main__.RecoveryTests.test_gui_opens_idle_without_subprocess_or_checks_selected) ... ok
+test_live_controller_blocks_programming (__main__.RecoveryTests.test_live_controller_blocks_programming) ... ok
+test_load_failure_or_missing_marker_blocks_query (__main__.RecoveryTests.test_load_failure_or_missing_marker_blocks_query) ... ok
+test_missing_confirmation_blocks_all_commands (__main__.RecoveryTests.test_missing_confirmation_blocks_all_commands) ... ok
+test_normal_recovery_only_queries_after_authenticated_load (__main__.RecoveryTests.test_normal_recovery_only_queries_after_authenticated_load) ... ok
+test_second_timeout_does_not_loop (__main__.RecoveryTests.test_second_timeout_does_not_loop) ... ok
+test_stale_status_ignored_and_fresh_paused_fault_blocked (__main__.RecoveryTests.test_stale_status_ignored_and_fresh_paused_fault_blocked) ... ok
+test_timeout_allows_one_cold_resume_and_then_requires_query (__main__.RecoveryTests.test_timeout_allows_one_cold_resume_and_then_requires_query) ... ok
+test_actual_decimal_readback_and_active_board_guard (__main__.TclReadbackTests.test_actual_decimal_readback_and_active_board_guard) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 2.761s
+
+OK

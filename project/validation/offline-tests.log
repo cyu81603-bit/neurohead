@@ -1,0 +1,43 @@
+test_collect_command_timings_and_outputs (__main__.BenchmarkTests) ... ok
+test_failed_command_is_preserved_and_stops (__main__.BenchmarkTests) ... ok
+test_busy_rejected_before_io (__main__.DMATests) ... ok
+test_device_error (__main__.DMATests) ... ok
+test_initial_idle_low_allowed_only_by_driver_flag (__main__.DMATests) ... ok
+test_length_alignment_and_overlap (__main__.DMATests) ... ok
+test_no_plain_array_and_nan_timeout (__main__.DMATests) ... ok
+test_receive_first_and_cache_order (__main__.DMATests) ... ok
+test_sg_micro_and_missing_config_rejected (__main__.DMATests) ... ok
+test_short_frame (__main__.DMATests) ... ok
+test_timeout_retains_buffers_and_stops (__main__.DMATests) ... ok
+test_contract_rejects_unsafe_semantics_and_offsets (__main__.GeneratorTests) ... ok
+test_output_not_overwritten (__main__.GeneratorTests) ... ok
+test_overlap_and_duplicates (__main__.GeneratorTests) ... ok
+test_two_unrelated_contracts_generate_and_execute (__main__.GeneratorTests) ... ok
+test_bad_tolerance_and_negative_latency (__main__.GoldenTests) ... ok
+test_latency_statistics (__main__.GoldenTests) ... ok
+test_nan_inf_ragged_empty_and_shape (__main__.GoldenTests) ... ok
+test_numeric_tolerance_and_failure_coordinates (__main__.GoldenTests) ... ok
+test_constraint_gap_and_explicit_waiver (__main__.ImplementationTests) ... ok
+test_hold_failure_and_resource_budget (__main__.ImplementationTests) ... ok
+test_multiclock_and_fractional_bram (__main__.ImplementationTests) ... ok
+test_real_r6_7_report_does_not_hide_io_gap (__main__.ImplementationTests) ... ok
+test_unknown_format_or_identity_mismatch (__main__.ImplementationTests) ... ok
+test_empty_and_self_containing_manifest (__main__.ManifestTests) ... ok
+test_extra_files_strict (__main__.ManifestTests) ... ok
+test_good_corrupt_missing (__main__.ManifestTests) ... ok
+test_path_escape_absolute_and_aliases (__main__.ManifestTests) ... ok
+test_download_after_metadata (__main__.OverlayTests) ... ok
+test_hash_corruption (__main__.OverlayTests) ... ok
+test_loading_requires_trust (__main__.OverlayTests) ... ok
+test_missing_hwh (__main__.OverlayTests) ... ok
+test_missing_ip (__main__.OverlayTests) ... ok
+test_offline_hash_and_ip (__main__.OverlayTests) ... ok
+test_closed_loop_requires_sensor_and_motion (__main__.TrialTests) ... ok
+test_digital_does_not_imply_physical (__main__.TrialTests) ... ok
+test_simulation_cannot_certify_motion (__main__.TrialTests) ... ok
+test_stale_changed_build_and_profile (__main__.TrialTests) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.670s
+
+OK

@@ -1,0 +1,6 @@
+check,reference,observed,evidence,scope
+query_status,0,0,observations/restart_20261031_verified.json,historical_three_queries
+active_mask_after_load,0,0,observations/restart_20261031_verified.json,historical_pwm_off
+invalid_packets,0,0,observations/restart_20261031_verified.json,historical_query_only
+watchdog_events,0,0,observations/restart_20261031_verified.json,historical_query_only
+jaw_endpoints_us,1300_1200_1300,operator_observed_open_close,observations/jaw_fixed_points_operator_20261030.json,historical_fixed_endpoints_not_angle_measurement

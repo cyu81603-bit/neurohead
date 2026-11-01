@@ -1,0 +1,66 @@
+{
+  "version": "r6.7",
+  "passed": true,
+  "control": {
+    "tests": 169,
+    "passed": true,
+    "errors": 0,
+    "failures": 0
+  },
+  "checks": [
+    {
+      "name": "protocol",
+      "passed": true
+    },
+    {
+      "name": "rtl_compile",
+      "passed": true
+    },
+    {
+      "name": "rtl",
+      "passed": true
+    },
+    {
+      "name": "pwm50_compile",
+      "passed": true
+    },
+    {
+      "name": "pwm50",
+      "passed": true
+    },
+    {
+      "name": "integration",
+      "passed": true
+    },
+    {
+      "name": "dashboard",
+      "passed": true
+    },
+    {
+      "name": "skill",
+      "passed": true
+    },
+    {
+      "name": "implementation_metrics",
+      "passed": true
+    },
+    {
+      "name": "lifelike_idle",
+      "passed": true
+    },
+    {
+      "name": "integrated_idle",
+      "passed": true
+    }
+  ],
+  "board_commands_sent": 0,
+  "physical_acceptance": false,
+  "c_recompiled": false,
+  "excluded_test": "test_board_restart.TclReadbackTests requires vendor debugger runtime DLL environment; historical results included separately",
+  "integration_tests": 56,
+  "dashboard_tests": 7,
+  "skill_tests": 2,
+  "total_python_tests": 234,
+  "c_compile_note": "MinGW cc1 exits 0xc0000135; prebuilt C protocol executable tested, not recompiled",
+  "synthesis_report": "original 2026.1 synthesized report and DCP, no resynthesis during packaging"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "FPGA 证据与复现"
+  short_description: "Golden comparison, release hashes and implementation metrics"
+  default_prompt: "Use $fpga-evidence to validate and adapt this FPGA workflow to the supplied board and interface."

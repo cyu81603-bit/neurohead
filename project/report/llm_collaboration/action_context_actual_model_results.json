@@ -1,0 +1,122 @@
+{
+  "epoch": 1793442330.2129889,
+  "hardware_io": false,
+  "results": [
+    {
+      "previous_user": "请抬头",
+      "previous_reply": "换个角度看看。",
+      "current_user": "再来一次",
+      "expected": [
+        "head_up"
+      ],
+      "actions": [
+        "head_up"
+      ],
+      "action_reason": "指代前文未执行的抬头动作",
+      "wink_request": "none",
+      "action_parse_error": null,
+      "latency_ms": 1860.0,
+      "passed": true
+    },
+    {
+      "previous_user": "请摇头",
+      "previous_reply": "哈哈，没那么容易说服我。",
+      "current_user": "刚才那个动作再做一遍",
+      "expected": [
+        "shake_head"
+      ],
+      "actions": [
+        "shake_head"
+      ],
+      "action_reason": "指代最近一次明确请求的摇头动作",
+      "wink_request": "none",
+      "action_parse_error": null,
+      "latency_ms": 1265.0,
+      "passed": true
+    },
+    {
+      "previous_user": "笑一下",
+      "previous_reply": "听着就让人开心。",
+      "current_user": "你为什么这么回答？",
+      "expected": [],
+      "actions": [],
+      "action_reason": "用户询问原因，非动作请求",
+      "wink_request": "none",
+      "action_parse_error": null,
+      "latency_ms": 1047.0,
+      "passed": true
+    },
+    {
+      "previous_user": "请抬眼",
+      "previous_reply": "我在听呢。",
+      "current_user": "不用再做刚才那个动作了",
+      "expected": [],
+      "actions": [],
+      "action_reason": "用户明确取消旧动作，不重放",
+      "wink_request": "none",
+      "action_parse_error": null,
+      "latency_ms": 1094.0,
+      "passed": true
+    },
+    {
+      "previous_user": "请用左眼wink",
+      "previous_reply": "左眼会遮挡摄像头，不能这样眨。",
+      "current_user": "那就wink一下",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "action_reason": "用户明确请求右眼眨眼，忽略历史左眼限制",
+      "wink_request": "default",
+      "action_parse_error": null,
+      "latency_ms": 1328.0,
+      "passed": true
+    },
+    {
+      "previous_user": "请用右眼wink",
+      "previous_reply": "留意这一下。",
+      "current_user": "再来一次",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "action_reason": "指代最近明确请求的右眼眨眼动作",
+      "wink_request": "right",
+      "action_parse_error": null,
+      "latency_ms": 1281.0,
+      "passed": true
+    },
+    {
+      "previous_user": "今天想去散步",
+      "previous_reply": "走走也挺好。",
+      "current_user": "再来一次",
+      "expected": [],
+      "actions": [],
+      "action_reason": "无明确动作请求，仅指代未定义内容",
+      "wink_request": "none",
+      "action_parse_error": null,
+      "latency_ms": 1141.0,
+      "passed": true
+    },
+    {
+      "previous_user": "先摇头然后抬头",
+      "previous_reply": "我们慢慢来。",
+      "current_user": "不是刚才那个，笑一下",
+      "expected": [
+        "smile"
+      ],
+      "actions": [
+        "smile"
+      ],
+      "action_reason": "用户明确请求微笑动作",
+      "wink_request": "none",
+      "action_parse_error": null,
+      "latency_ms": 1203.0,
+      "passed": true
+    }
+  ]
+}

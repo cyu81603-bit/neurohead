@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "python": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+  "offline_tests_passed": 38,
+  "generated_contracts_tested": 2,
+  "generated_inner_tests": 6,
+  "syntax_checked": 10,
+  "broken_relative_markdown_links": [],
+  "elapsed_seconds": 0.8280000000013388,
+  "hardware_tested": false,
+  "network_or_actuator_effects": false,
+  "real_report_gate": "expected fail: 22 outputs without delay constraints"
+}

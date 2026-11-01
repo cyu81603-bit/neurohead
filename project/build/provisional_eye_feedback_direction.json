@@ -1,0 +1,15 @@
+{
+  "basis": "Initial settled positive-step response and initial negative-step response in both trials suggest dx/du positive. Later neutral drift/target motion prevents stable full scale calibration. Use low-speed bounded pilot only.",
+  "provisional_image_dx_per_us": 0.002,
+  "source_results": [
+    {
+      "sha256": "93c24c49277adb334875eb52614665da6740c2cdf1ed0abd24996a407b900e58",
+      "path": "F:\\NeuroHead\\builds\\nh21_20261024\\build\\eye_calibrate_1792901339811590400.result.json"
+    },
+    {
+      "sha256": "6940425eb69bc69fa908e05a9c4a98ac3c99eff8ab660ab0a15ecf084a9e6a5a",
+      "path": "F:\\NeuroHead\\builds\\nh21_20261024\\build\\eye_calibrate_1792901498484220000.result.json"
+    }
+  ],
+  "status": "provisional_direction_not_full_calibration"
+}

@@ -1,0 +1,14 @@
+SYNTHETIC_MOTION_COMPARISON {"legacy": {"style": "legacy", "tracking_rms": 0.09498392661063733, "eye_command_acceleration_rms": 18611.75968034545, "ranges": [[1370, 1643], [1420, 1580], [1449, 1533], [1266, 1275], [1495, 1504]]}, "natural": {"style": "natural", "tracking_rms": 0.11101137660507591, "eye_command_acceleration_rms": 13194.041147978243, "ranges": [[1351, 1670], [1401, 1603], [1429, 1542], [1255, 1286], [1484, 1515]]}}
+test_frame_buffer_ignores_late_frames_and_short_read_failures (__main__.MotionTests.test_frame_buffer_ignores_late_frames_and_short_read_failures) ... ok
+test_fresh_restart_replaces_old_boot_high_water_without_accepting_stale_frames (__main__.MotionTests.test_fresh_restart_replaces_old_boot_high_water_without_accepting_stale_frames) ... ok
+test_log_tail_uses_open_handle_size_and_tolerates_partial_line (__main__.MotionTests.test_log_tail_uses_open_handle_size_and_tolerates_partial_line) ... ok
+test_natural_hold_on_brief_face_loss_and_same_frame (__main__.MotionTests.test_natural_hold_on_brief_face_loss_and_same_frame) ... ok
+test_old_boot_timestamps_cannot_poison_fresh_camera_buffer (__main__.MotionTests.test_old_boot_timestamps_cannot_poison_fresh_camera_buffer) ... ok
+test_slow_motion_accumulates_and_automatic_neck_envelope_is_retained (__main__.MotionTests.test_slow_motion_accumulates_and_automatic_neck_envelope_is_retained) ... ok
+test_synthetic_closed_loop_is_smoother_without_large_tracking_loss (__main__.MotionTests.test_synthetic_closed_loop_is_smoother_without_large_tracking_loss) ... ok
+test_velocity_acceleration_and_jerk_are_bounded_through_reversal (__main__.MotionTests.test_velocity_acceleration_and_jerk_are_bounded_through_reversal) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.076s
+
+OK

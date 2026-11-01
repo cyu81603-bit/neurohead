@@ -1,0 +1,11 @@
+test_changed_count_rejected (__main__.ReviewTests.test_changed_count_rejected) ... ok
+test_extra_gap_rejected (__main__.ReviewTests.test_extra_gap_rejected) ... ok
+test_matching_review (__main__.ReviewTests.test_matching_review) ... ok
+test_missing_evidence_rejected (__main__.ReviewTests.test_missing_evidence_rejected) ... ok
+test_pending_rejected (__main__.ReviewTests.test_pending_rejected) ... ok
+test_stale_evidence_rejected (__main__.ReviewTests.test_stale_evidence_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.177s
+
+OK

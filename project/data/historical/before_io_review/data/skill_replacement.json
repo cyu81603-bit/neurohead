@@ -1,0 +1,42 @@
+{
+  "original_archive_sha256": "218b75c1007c1729cca891dad7509aa98476e4bb08511dfd8ed95fcbca2ba69f",
+  "new_skill_archive_sha256": "f41f5a267b2275495c3e5cfe9a2396e088c34ee218609baf4e234ddcefd9a973",
+  "skill_names": [
+    "fpga-commissioning",
+    "fpga-evidence",
+    "pynq-dma",
+    "pynq-interface",
+    "pynq-overlay"
+  ],
+  "skill_payload_exact": true,
+  "protected_files": 131,
+  "protected_files_unchanged": true,
+  "software_tests": 270,
+  "skill_tests": 38,
+  "generated_interface_tests": 6,
+  "implementation_review_pending": true,
+  "board_commands_sent": 0,
+  "physical_acceptance": false,
+  "removed_old_skill_files": [
+    "skill/check_implementation.py",
+    "skill/readme.md",
+    "skill/test_skill.py",
+    "skill/troubleshooting.md",
+    "skill/verify_manifest.py",
+    "skill/workflow.md"
+  ],
+  "changed_original_files": [
+    "build/release_manifest.json",
+    "readme.md",
+    "scripts/build_archive.py",
+    "scripts/validate_submission.py",
+    "sim/results/control_tests.log",
+    "sim/results/dashboard.log",
+    "sim/results/implementation_metrics.log",
+    "sim/results/integration.log",
+    "sim/results/readme.md",
+    "sim/results/skill.log",
+    "sim/results/verification.json"
+  ],
+  "backup": "F:\\NeuroHead\\backups\\submission_skill_before_20261101_1793541045130832600"
+}

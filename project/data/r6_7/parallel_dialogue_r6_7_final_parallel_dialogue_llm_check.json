@@ -1,0 +1,72 @@
+{
+  "epoch": 1793442592.7920957,
+  "hardware_io": false,
+  "results": [
+    {
+      "text": "这段程序终于跑通了，你觉得下一步该验证什么？顺便抬一下头。",
+      "expected": [
+        "head_up"
+      ],
+      "actions": [
+        "head_up"
+      ],
+      "reply": "太棒了！接下来可以加个异常测试看看它会不会报错。不过我这边只能看到你的嘴部动作，没法帮你抬头的呀。",
+      "request_intervals": {
+        "reply": {
+          "start": 0.0,
+          "end": 2.1569999999992433
+        },
+        "action": {
+          "start": 0.0,
+          "end": 1.125
+        }
+      },
+      "completion_order": [
+        {
+          "route": "action_decision",
+          "available_s": 1.125
+        },
+        {
+          "route": "reply",
+          "available_s": 2.157
+        }
+      ],
+      "requests_overlapped": true,
+      "server_compute_parallelism_proven": false,
+      "passed": true
+    },
+    {
+      "text": "今天天气晴朗，我想出去走走，你觉得呢？顺便wink一下。",
+      "expected": [
+        "wink"
+      ],
+      "actions": [
+        "wink"
+      ],
+      "reply": "今天确实是个好天气，很适合出门透气。那我给你眨个右眼吧。",
+      "request_intervals": {
+        "reply": {
+          "start": 0.0,
+          "end": 0.7649999999994179
+        },
+        "action": {
+          "start": 0.0,
+          "end": 1.9370000000017171
+        }
+      },
+      "completion_order": [
+        {
+          "route": "reply",
+          "available_s": 0.765
+        },
+        {
+          "route": "action_decision",
+          "available_s": 1.937
+        }
+      ],
+      "requests_overlapped": true,
+      "server_compute_parallelism_proven": false,
+      "passed": true
+    }
+  ]
+}

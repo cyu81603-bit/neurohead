@@ -1,0 +1,41 @@
+{
+  "epoch": 1793454982.5426872,
+  "image": "nh22_v26_1029",
+  "jtag_version": "2026.1",
+  "launch_verified": true,
+  "communication_verified": true,
+  "pwm_off": true,
+  "cold_network_resume": true,
+  "queries": [
+    {
+      "status": 0,
+      "active_mask": 0,
+      "configured_mask": 0,
+      "accepted": 0,
+      "invalid": 0,
+      "stale": 0,
+      "watchdog_events": 0
+    },
+    {
+      "status": 0,
+      "active_mask": 0,
+      "configured_mask": 0,
+      "accepted": 0,
+      "invalid": 0,
+      "stale": 0,
+      "watchdog_events": 0
+    },
+    {
+      "status": 0,
+      "active_mask": 0,
+      "configured_mask": 0,
+      "accepted": 0,
+      "invalid": 0,
+      "stale": 0,
+      "watchdog_events": 0
+    }
+  ],
+  "servo_power_off_confirmed": true,
+  "signals_disconnected_confirmed": true,
+  "query_only": true
+}

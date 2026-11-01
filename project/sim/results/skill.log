@@ -1,0 +1,43 @@
+test_collect_command_timings_and_outputs (__main__.BenchmarkTests.test_collect_command_timings_and_outputs) ... ok
+test_failed_command_is_preserved_and_stops (__main__.BenchmarkTests.test_failed_command_is_preserved_and_stops) ... ok
+test_busy_rejected_before_io (__main__.DMATests.test_busy_rejected_before_io) ... ok
+test_device_error (__main__.DMATests.test_device_error) ... ok
+test_initial_idle_low_allowed_only_by_driver_flag (__main__.DMATests.test_initial_idle_low_allowed_only_by_driver_flag) ... ok
+test_length_alignment_and_overlap (__main__.DMATests.test_length_alignment_and_overlap) ... ok
+test_no_plain_array_and_nan_timeout (__main__.DMATests.test_no_plain_array_and_nan_timeout) ... ok
+test_receive_first_and_cache_order (__main__.DMATests.test_receive_first_and_cache_order) ... ok
+test_sg_micro_and_missing_config_rejected (__main__.DMATests.test_sg_micro_and_missing_config_rejected) ... ok
+test_short_frame (__main__.DMATests.test_short_frame) ... ok
+test_timeout_retains_buffers_and_stops (__main__.DMATests.test_timeout_retains_buffers_and_stops) ... ok
+test_contract_rejects_unsafe_semantics_and_offsets (__main__.GeneratorTests.test_contract_rejects_unsafe_semantics_and_offsets) ... ok
+test_output_not_overwritten (__main__.GeneratorTests.test_output_not_overwritten) ... ok
+test_overlap_and_duplicates (__main__.GeneratorTests.test_overlap_and_duplicates) ... ok
+test_two_unrelated_contracts_generate_and_execute (__main__.GeneratorTests.test_two_unrelated_contracts_generate_and_execute) ... ok
+test_bad_tolerance_and_negative_latency (__main__.GoldenTests.test_bad_tolerance_and_negative_latency) ... ok
+test_latency_statistics (__main__.GoldenTests.test_latency_statistics) ... ok
+test_nan_inf_ragged_empty_and_shape (__main__.GoldenTests.test_nan_inf_ragged_empty_and_shape) ... ok
+test_numeric_tolerance_and_failure_coordinates (__main__.GoldenTests.test_numeric_tolerance_and_failure_coordinates) ... ok
+test_constraint_gap_and_explicit_waiver (__main__.ImplementationTests.test_constraint_gap_and_explicit_waiver) ... ok
+test_hold_failure_and_resource_budget (__main__.ImplementationTests.test_hold_failure_and_resource_budget) ... ok
+test_multiclock_and_fractional_bram (__main__.ImplementationTests.test_multiclock_and_fractional_bram) ... ok
+test_real_r6_7_report_does_not_hide_io_gap (__main__.ImplementationTests.test_real_r6_7_report_does_not_hide_io_gap) ... ok
+test_unknown_format_or_identity_mismatch (__main__.ImplementationTests.test_unknown_format_or_identity_mismatch) ... ok
+test_empty_and_self_containing_manifest (__main__.ManifestTests.test_empty_and_self_containing_manifest) ... ok
+test_extra_files_strict (__main__.ManifestTests.test_extra_files_strict) ... ok
+test_good_corrupt_missing (__main__.ManifestTests.test_good_corrupt_missing) ... ok
+test_path_escape_absolute_and_aliases (__main__.ManifestTests.test_path_escape_absolute_and_aliases) ... ok
+test_download_after_metadata (__main__.OverlayTests.test_download_after_metadata) ... ok
+test_hash_corruption (__main__.OverlayTests.test_hash_corruption) ... ok
+test_loading_requires_trust (__main__.OverlayTests.test_loading_requires_trust) ... ok
+test_missing_hwh (__main__.OverlayTests.test_missing_hwh) ... ok
+test_missing_ip (__main__.OverlayTests.test_missing_ip) ... ok
+test_offline_hash_and_ip (__main__.OverlayTests.test_offline_hash_and_ip) ... ok
+test_closed_loop_requires_sensor_and_motion (__main__.TrialTests.test_closed_loop_requires_sensor_and_motion) ... ok
+test_digital_does_not_imply_physical (__main__.TrialTests.test_digital_does_not_imply_physical) ... ok
+test_simulation_cannot_certify_motion (__main__.TrialTests.test_simulation_cannot_certify_motion) ... ok
+test_stale_changed_build_and_profile (__main__.TrialTests.test_stale_changed_build_and_profile) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.861s
+
+OK

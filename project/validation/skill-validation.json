@@ -1,0 +1,27 @@
+[
+  {
+    "skill": "pynq-overlay",
+    "passed": true,
+    "output": "Skill is valid!\n"
+  },
+  {
+    "skill": "pynq-dma",
+    "passed": true,
+    "output": "Skill is valid!\n"
+  },
+  {
+    "skill": "pynq-interface",
+    "passed": true,
+    "output": "Skill is valid!\n"
+  },
+  {
+    "skill": "fpga-evidence",
+    "passed": true,
+    "output": "Skill is valid!\n"
+  },
+  {
+    "skill": "fpga-commissioning",
+    "passed": true,
+    "output": "Skill is valid!\n"
+  }
+]

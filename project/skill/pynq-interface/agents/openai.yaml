@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ 接口代码生成"
+  short_description: "Generate checked register APIs and offline test skeletons"
+  default_prompt: "Use $pynq-interface to validate and adapt this FPGA workflow to the supplied board and interface."

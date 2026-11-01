@@ -1,0 +1,29 @@
+{
+  "review_id": "r6_7_pwm_output_delay_20261101",
+  "status": "accepted_exception",
+  "reviewer": "Codex automated static review; no claim of human sign-off or instrument measurement",
+  "review_date": "2026-11-01",
+  "scope": "only no_output_delay=22 for pwm_0[0:21] in the hashed R6.7 design",
+  "rationale": "Registered servo PWM outputs encode pulse duration; the board interface exports no shared receiver capture clock. A synchronous external setup/hold budget has not been specified for this interface. Accept the missing set_output_delay entries as a documented interface-specific exception for the selected metrics gate; do not claim external pin waveform timing closure or measured waveform accuracy.",
+  "expected_constraint_checks": {
+    "no_clock": 0,
+    "unconstrained_internal_endpoints": 0,
+    "no_input_delay": 0,
+    "no_output_delay": 22,
+    "partial_input_delay": 0,
+    "partial_output_delay": 0
+  },
+  "evidence_sha256": {
+    "src/rtl/nh22_axi.sv": "9ff1aa0022ad18cc99c211d63c206320d584ed589bd379e2ef643dddaffc0b56",
+    "board/ax7020_zynq_ports_template.xdc": "81e996418292dd1cacc894f4c45faf4fb8bf2ca03d9f549c07072509452a2fbc",
+    "scripts/create_bd.tcl": "8cc08b0da7e75cf2c25fcdbb38849608050133fd16502eafb2d09a74affe83a7",
+    "sim/tb_nh22_50mhz.sv": "d47f50c3b87479d9ee295681b1cf8824c71c48b2f579a9a26a633df5c5e2711a",
+    "sim/results/pwm50.log": "a23c95c56c543908e17d422dfa8cc2093d63d108b0bf7c4dd2f5eba7b18e0c88",
+    "build/reports/zynq_neurohead/timing_summary.rpt": "1c972827068324fc1abba617e0fe74e8df141dec046f7deefba349821bee694d",
+    "build/reports/zynq_neurohead/utilization.rpt": "6db00dfae6d204fc11abe2d2c16ba68fb6dac7a606c3587fdc7eab5ab2a9c266"
+  },
+  "reference": "https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Output-Delay",
+  "physical_waveform_measured": false,
+  "full_board_acceptance": false,
+  "invalidate_on": "Any hashed evidence, interface, output count or clocking change requires a new review."
+}

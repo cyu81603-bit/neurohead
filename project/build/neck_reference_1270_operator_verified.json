@@ -1,0 +1,47 @@
+{
+  "shaft_angles_measured": false,
+  "reference_us": [
+    1500,
+    1270,
+    1500
+  ],
+  "purpose": "operator_verified_neck_reference_pose",
+  "operator_report": "已切换v3，中位姿态合适",
+  "scope": "selected reference pose only, not full mechanical range or complete pose mixing",
+  "runtime_snapshot": {
+    "mode": "running",
+    "updated_epoch": 1793008494.2670157,
+    "owner_pid": 18388,
+    "desired_us": [
+      1500,
+      1291,
+      1500
+    ],
+    "output_pwm_us": [
+      1500,
+      1291,
+      1500
+    ],
+    "eyes_active": false,
+    "reference_us": [
+      1500,
+      1270,
+      1500
+    ],
+    "configured_reference_us": [
+      1500,
+      1270,
+      1500
+    ],
+    "transport_error": "",
+    "board_status": 5,
+    "board_active_mask": 1835008,
+    "board_sequence": 45292,
+    "rod_up_pwm_signs": [
+      -1,
+      1
+    ],
+    "demo_running": false
+  },
+  "owner_pid": 18388
+}

@@ -1,0 +1,31 @@
+{
+  "test": "CH1 Pin4 manual panel fixed-position observation",
+  "requested_points_approximately_us": [
+    1500,
+    1650,
+    1350,
+    1500
+  ],
+  "observed_register_points_us": [
+    1500,
+    1650,
+    1350,
+    1500
+  ],
+  "gui_endpoint_rounding_us": [
+    1500,
+    1651,
+    1349,
+    1500
+  ],
+  "other_targets_unchanged_us": {
+    "ch0": 1485,
+    "ch18": 1400,
+    "ch19": 1305,
+    "ch20": 1275
+  },
+  "final_eye_vertical_us": 1500,
+  "physical_observation_pending": true,
+  "epoch": 1793462301.1544557,
+  "controller_pid": 55412
+}

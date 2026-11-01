@@ -1,0 +1,29 @@
+{
+  "revision": "R6.5",
+  "action_execution_revision": 6,
+  "control_tests": 123,
+  "integration_tests": 37,
+  "gui_idle_selftests": 2,
+  "passed": true,
+  "deployment_pending": false,
+  "hardware_motion_sent": false,
+  "physical_acceptance_pending": true,
+  "headroom_reserve_us": 80,
+  "tracking_pitch_upper_us": 20,
+  "operator_verified_head_up_from_reference": true,
+  "epoch": 1793437855.329118,
+  "deployed_pid": 14888,
+  "deployed_epoch": 1793437942.9772303,
+  "runtime": {
+    "owner_pid": 14888,
+    "mode": "idle",
+    "life_state": "off",
+    "action_library_enabled": false,
+    "action_execution_revision": 6,
+    "head_up_room_us": 100,
+    "tracking_headroom_reserved_us": 0,
+    "camera_lid_guard_revision": 1,
+    "wink_side": "right",
+    "error": ""
+  }
+}

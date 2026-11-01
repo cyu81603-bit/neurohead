@@ -1,0 +1,62 @@
+[
+  {
+    "module": "test_jaw_fixed_points.py",
+    "tests": 12,
+    "passed": true
+  },
+  {
+    "module": "test_jaw_one_direction.py",
+    "tests": 11,
+    "passed": true
+  },
+  {
+    "module": "test_jaw_seek.py",
+    "tests": 3,
+    "passed": true
+  },
+  {
+    "module": "test_jaw_pacing.py",
+    "tests": 2,
+    "passed": true
+  },
+  {
+    "module": "test_face_tracking_v5.py",
+    "tests": 11,
+    "passed": true
+  },
+  {
+    "module": "test_lifelike.py",
+    "tests": 18,
+    "passed": true
+  },
+  {
+    "module": "test_lifelike_v2.py",
+    "tests": 4,
+    "passed": true
+  },
+  {
+    "module": "test_lifelike_v3.py",
+    "tests": 3,
+    "passed": true
+  },
+  {
+    "module": "test_neck_speed_v4.py",
+    "tests": 4,
+    "passed": true
+  },
+  {
+    "module": "test_22_extension.py",
+    "tests": 5,
+    "passed": true
+  },
+  {
+    "module": "test_pc.py",
+    "tests": 5,
+    "passed": true
+  },
+  {
+    "module": "test_bench_exclusion.py",
+    "tests": 2,
+    "passed": true
+  }
+]

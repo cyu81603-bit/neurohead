@@ -1,0 +1,22 @@
+{
+  "version": "v6.3",
+  "date": "2026-10-30",
+  "model": "MG995",
+  "channel": 21,
+  "signal_pin": 24,
+  "closed_us": 1300,
+  "open_us": 1200,
+  "mode": "fixed_points",
+  "step_us_per_frame": 100,
+  "operator_verified": true,
+  "operator_report": "银色舵臂和嘴巴都明显动作，最后自然闭合",
+  "trial": "build\\jaw_fixed_1793373297071126800.json",
+  "trial_sha256": "8786695dbc1ba8f035dcdb28b15d409c74d532e0a625f91c61d57a4701133084",
+  "hold_s_per_point": 3,
+  "active_mask": 2097152,
+  "pwm_off_confirmed": true,
+  "register_feedback_is_not_measured_angle": true,
+  "continuous_speech_physical_verified": false,
+  "loaded_voltage_min_v": 5.16,
+  "loaded_voltage_settled_v": 5.24
+}

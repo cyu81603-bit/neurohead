@@ -1,0 +1,9 @@
+test_logical_center_and_view_switch_preserve_physical_target (__main__.Tests.test_logical_center_and_view_switch_preserve_physical_target) ... ok
+test_mapping_hot_reload_changes_only_future_commands_and_not_active_status (__main__.Tests.test_mapping_hot_reload_changes_only_future_commands_and_not_active_status) ... ok
+test_neutral_hot_reload_and_recording_do_not_move_paused_pose (__main__.Tests.test_neutral_hot_reload_and_recording_do_not_move_paused_pose) ... ok
+test_side_amplitude_hot_save_changes_next_pose_only (__main__.Tests.test_side_amplitude_hot_save_changes_next_pose_only) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.513s
+
+OK

@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ DMA 与缓存"
+  short_description: "Bounded DMA transfers, cache sync and fault diagnosis"
+  default_prompt: "Use $pynq-dma to validate and adapt this FPGA workflow to the supplied board and interface."

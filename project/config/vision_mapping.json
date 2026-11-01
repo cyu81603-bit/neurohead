@@ -1,0 +1,10 @@
+{
+  "source": "existing NeuroHead viewer JSONL",
+  "kind": "image_center_to_calibrated_pulse_heuristic",
+  "axes": [],
+  "example_only": {
+    "id": "F01",
+    "coordinate": "x",
+    "gain_us": "set from physical calibration; do not use virtual degrees as shaft degrees"
+  }
+}

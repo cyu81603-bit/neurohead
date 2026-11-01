@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ Overlay 校验"
+  short_description: "Validate overlay assets, IP identity and registers"
+  default_prompt: "Use $pynq-overlay to validate and adapt this FPGA workflow to the supplied board and interface."

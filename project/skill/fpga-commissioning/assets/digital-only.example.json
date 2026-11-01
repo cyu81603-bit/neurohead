@@ -1,0 +1,13 @@
+{
+  "mode": "simulation",
+  "build_id": "synthetic-build-a",
+  "current_build_id": "synthetic-build-a",
+  "profile_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "current_profile_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "captured_at_epoch": 1000,
+  "max_age_seconds": 10,
+  "evidence": {
+    "digital": {"verified": true, "source": "synthetic/mock-register-log.json"}
+  },
+  "claims": ["digital_verified"]
+}

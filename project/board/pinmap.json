@@ -1,0 +1,165 @@
+{
+  "source": "ALINX AX7020 UG J10 + https://www.alinx.com/public/upload/file/AX7020_UG.pdf",
+  "ground_pins": [
+    1,
+    37,
+    38
+  ],
+  "servo_power": "external 5V supply only; no servo power through J10",
+  "channels": [
+    {
+      "channel": 0,
+      "id": "F01",
+      "connector": "J10",
+      "signal_pin": 10,
+      "package_pin": "V15"
+    },
+    {
+      "channel": 1,
+      "id": "F02",
+      "connector": "J10",
+      "signal_pin": 4,
+      "package_pin": "W18"
+    },
+    {
+      "channel": 2,
+      "id": "F03",
+      "connector": "J10",
+      "signal_pin": 3,
+      "package_pin": "W19"
+    },
+    {
+      "channel": 3,
+      "id": "F04",
+      "connector": "J10",
+      "signal_pin": 5,
+      "package_pin": "R14"
+    },
+    {
+      "channel": 4,
+      "id": "F05",
+      "connector": "J10",
+      "signal_pin": 6,
+      "package_pin": "P14"
+    },
+    {
+      "channel": 5,
+      "id": "F06",
+      "connector": "J10",
+      "signal_pin": 7,
+      "package_pin": "Y17"
+    },
+    {
+      "channel": 6,
+      "id": "F07",
+      "connector": "J10",
+      "signal_pin": 8,
+      "package_pin": "Y16"
+    },
+    {
+      "channel": 7,
+      "id": "F08",
+      "connector": "J10",
+      "signal_pin": 9,
+      "package_pin": "W15"
+    },
+    {
+      "channel": 8,
+      "id": "F09",
+      "connector": "J10",
+      "signal_pin": 11,
+      "package_pin": "Y14"
+    },
+    {
+      "channel": 9,
+      "id": "F10",
+      "connector": "J10",
+      "signal_pin": 12,
+      "package_pin": "W14"
+    },
+    {
+      "channel": 10,
+      "id": "F11",
+      "connector": "J10",
+      "signal_pin": 13,
+      "package_pin": "P18"
+    },
+    {
+      "channel": 11,
+      "id": "F12",
+      "connector": "J10",
+      "signal_pin": 14,
+      "package_pin": "N17"
+    },
+    {
+      "channel": 12,
+      "id": "F13",
+      "connector": "J10",
+      "signal_pin": 15,
+      "package_pin": "U15"
+    },
+    {
+      "channel": 13,
+      "id": "F14",
+      "connector": "J10",
+      "signal_pin": 16,
+      "package_pin": "U14"
+    },
+    {
+      "channel": 14,
+      "id": "F15",
+      "connector": "J10",
+      "signal_pin": 17,
+      "package_pin": "P16"
+    },
+    {
+      "channel": 15,
+      "id": "F16",
+      "connector": "J10",
+      "signal_pin": 18,
+      "package_pin": "P15"
+    },
+    {
+      "channel": 16,
+      "id": "F17",
+      "connector": "J10",
+      "signal_pin": 19,
+      "package_pin": "U17"
+    },
+    {
+      "channel": 17,
+      "id": "F18",
+      "connector": "J10",
+      "signal_pin": 20,
+      "package_pin": "T16"
+    },
+    {
+      "channel": 18,
+      "id": "N01",
+      "connector": "J10",
+      "signal_pin": 21,
+      "package_pin": "V18"
+    },
+    {
+      "channel": 19,
+      "id": "N02",
+      "connector": "J10",
+      "signal_pin": 22,
+      "package_pin": "V17"
+    },
+    {
+      "channel": 20,
+      "id": "N03",
+      "connector": "J10",
+      "signal_pin": 23,
+      "package_pin": "T15"
+    },
+    {
+      "channel": 21,
+      "id": "F19",
+      "connector": "J10",
+      "signal_pin": 24,
+      "package_pin": "T14"
+    }
+  ]
+}

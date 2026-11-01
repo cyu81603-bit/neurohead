@@ -1,0 +1,72 @@
+{
+  "version": "r6.7",
+  "passed": true,
+  "software_tests_passed": true,
+  "implementation_review_pending": false,
+  "skill_tests": 38,
+  "total_python_tests": 276,
+  "io_review_tests": 6,
+  "control": {
+    "tests": 169,
+    "passed": true,
+    "errors": 0,
+    "failures": 0
+  },
+  "checks": [
+    {
+      "name": "protocol",
+      "passed": true
+    },
+    {
+      "name": "rtl_compile",
+      "passed": true
+    },
+    {
+      "name": "rtl",
+      "passed": true
+    },
+    {
+      "name": "pwm50_compile",
+      "passed": true
+    },
+    {
+      "name": "pwm50",
+      "passed": true
+    },
+    {
+      "name": "integration",
+      "passed": true
+    },
+    {
+      "name": "dashboard",
+      "passed": true
+    },
+    {
+      "name": "skill",
+      "passed": true
+    },
+    {
+      "name": "io_review",
+      "passed": true
+    },
+    {
+      "name": "implementation_metrics",
+      "passed": true,
+      "review_pending": false
+    },
+    {
+      "name": "lifelike_idle",
+      "passed": true
+    },
+    {
+      "name": "integrated_idle",
+      "passed": true
+    }
+  ],
+  "board_commands_sent": 0,
+  "physical_acceptance": false,
+  "c_recompiled": false,
+  "excluded_test": "test_board_restart.TclReadbackTests requires vendor debugger runtime DLL environment; historical results included separately",
+  "acceptance_scope": "Offline software tests and selected implementation metrics with evidence-bound PWM IO exception; not complete board acceptance",
+  "constraint_review_status": "accepted_exception"
+}

@@ -1,0 +1,6 @@
+metric,baseline_2022_2,current_2026_1,unit,scope
+luts,7136,7033,count,routed_reports
+registers,3785,3780,count,routed_reports
+clock,50,50,mhz,constraint_not_measured_fmax
+wns,7.312,5.432,ns,routed_reports
+whs,0.073,0.100,ns,routed_reports

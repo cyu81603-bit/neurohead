@@ -1,0 +1,52 @@
+{
+  "identity": {
+    "Tool Version": "Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026",
+    "Design": "neurohead_system_wrapper",
+    "Device": "7z020-clg400",
+    "Design State": "Routed",
+    "Utilization Device": "xc7z020clg400-2"
+  },
+  "resources": {
+    "luts": 7033.0,
+    "registers": 3780.0,
+    "bram_tiles": 0.0,
+    "dsps": 0.0
+  },
+  "clocks": [
+    {
+      "name": "clk_fpga_0",
+      "period_ns": 20.0,
+      "constrained_mhz": 50.0
+    }
+  ],
+  "wns_ns": 5.432,
+  "tns_ns": 0.0,
+  "setup_failing_endpoints": 0,
+  "whs_ns": 0.1,
+  "ths_ns": 0.0,
+  "hold_failing_endpoints": 0,
+  "wpws_ns": 9.146,
+  "tpws_ns": 0.0,
+  "pulse_failing_endpoints": 0,
+  "constraint_checks": {
+    "no_clock": 0,
+    "unconstrained_internal_endpoints": 0,
+    "no_input_delay": 0,
+    "no_output_delay": 22,
+    "partial_input_delay": 0,
+    "partial_output_delay": 0
+  },
+  "sha256": {
+    "timing_summary.rpt": "1c972827068324fc1abba617e0fe74e8df141dec046f7deefba349821bee694d",
+    "utilization.rpt": "6db00dfae6d204fc11abe2d2c16ba68fb6dac7a606c3587fdc7eab5ab2a9c266"
+  },
+  "drc": "not checked",
+  "cdc": "not checked",
+  "measured_fmax": "not measured",
+  "passed": true,
+  "failures": [],
+  "constraint_waiver": "r6_7_pwm_output_delay_20261101: accepted exception; Registered servo PWM outputs encode pulse duration; the board interface exports no shared receiver capture clock. A synchronous external setup/hold budget has not been specified for this interface. Accept the missing set_output_delay entries as a documented interface-specific exception for the selected metrics gate; do not claim external pin waveform timing closure or measured waveform accuracy. Evidence: data/io_constraint_review.json",
+  "scope": "selected implementation metrics only; no complete design/board acceptance",
+  "constraint_review_status": "accepted_exception",
+  "constraint_review_record": "data/io_constraint_review.json"
+}

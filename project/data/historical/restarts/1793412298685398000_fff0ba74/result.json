@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "check_only": false,
+  "cold_network_recovered": true,
+  "query_path": "F:\\NeuroHead\\builds\\nh22_v26_1029\\build\\restarts\\1793412298685398000_fff0ba74\\query_1793412330954274800.json",
+  "successful_queries": 10,
+  "pwm_disabled": true,
+  "configuration_commands_sent": 0,
+  "motion_commands_sent": 0,
+  "log_path": "F:\\NeuroHead\\builds\\nh22_v26_1029\\build\\restarts\\1793412298685398000_fff0ba74\\recovery.log"
+}

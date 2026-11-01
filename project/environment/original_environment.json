@@ -1,0 +1,39 @@
+{
+  "python": "3.11.17 | packaged by conda-forge | (main, Oct 13 2026, 16:36:10) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "certifi": "2026.10.23",
+    "cffi": "2.1.1",
+    "charset-normalizer": "3.5.2",
+    "customtkinter": "6.0.0",
+    "darkdetect": "0.8.0",
+    "idna": "3.20",
+    "pip": "26.2.1",
+    "pycparser": "3.12",
+    "pywin32": "312",
+    "requests": "2.34.2",
+    "setuptools": "84.0.0",
+    "sherpa-onnx": "2.0.1",
+    "sherpa-onnx-core": "2.0.1",
+    "sounddevice": "0.5.6",
+    "urllib3": "2.8.0",
+    "numpy": "1.26.4",
+    "opencv-python-headless": "4.11.0.86",
+    "packaging": "26.3",
+    "pillow": "12.3.0",
+    "pybullet": "3.2.5",
+    "wheel": "0.48.0"
+  },
+  "toolchain": {
+    "vivado": "2026.1",
+    "firmware_compiler": "Vitis 2022.2 arm-none-eabi",
+    "bsp": "lwip Cortex-A9 2022.2"
+  },
+  "not_bundled": [
+    "Python runtime",
+    "Vivado/Vitis",
+    "Ollama executable and qwen3.5:4b weights",
+    "ffmpeg",
+    "Icarus Verilog",
+    "host C compiler"
+  ]
+}

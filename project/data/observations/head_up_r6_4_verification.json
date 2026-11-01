@@ -1,0 +1,37 @@
+{
+  "revision": "R6.4",
+  "action_execution_revision": 5,
+  "control_tests": 116,
+  "integration_tests": 37,
+  "gui_idle_selftests": 2,
+  "passed": true,
+  "deployment_pending": false,
+  "hardware_motion_sent": false,
+  "physical_acceptance_pending": true,
+  "fix": "remove downward preparation from head_up; reject insufficient room before enqueue",
+  "tracking_signs_preserved": [
+    -1,
+    1
+  ],
+  "epoch": 1793436830.721895,
+  "deployed_pid": 41044,
+  "deployed_epoch": 1793436890.014882,
+  "runtime": {
+    "owner_pid": 41044,
+    "mode": "idle",
+    "life_state": "off",
+    "action_library_enabled": false,
+    "action_execution_revision": 5,
+    "eye_gesture": {
+      "delta_us": 300,
+      "rate_us_per_s": 300
+    },
+    "head_gesture": {
+      "yaw_rate_us_per_s": 120,
+      "pitch_rate_us_per_s": 100
+    },
+    "camera_lid_guard_revision": 1,
+    "wink_side": "right",
+    "error": ""
+  }
+}

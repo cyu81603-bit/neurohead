@@ -1,0 +1,60 @@
+{
+  "revision": "R6.7",
+  "semantic_policy_revision": 2,
+  "software_tests_passed": true,
+  "integration_tests": 56,
+  "gui_idle_selftests": 2,
+  "live_model": {
+    "action_context": {
+      "total": 8,
+      "passed": 8,
+      "file": "build/parallel_dialogue_r6_7_final_action_context_llm_check.json"
+    },
+    "wink": {
+      "total": 14,
+      "passed": 13,
+      "file": "build/parallel_dialogue_r6_7_final_wink_default_right_llm_check.json",
+      "action_selection_passed": 14
+    },
+    "dialogue": {
+      "total": 8,
+      "passed": 7,
+      "file": "build/parallel_dialogue_r6_7_final_dialogue_context_llm_check.json"
+    },
+    "parallel": {
+      "total": 2,
+      "passed": 2,
+      "file": "build/parallel_dialogue_r6_7_final_parallel_dialogue_llm_check.json"
+    }
+  },
+  "all_live_language_checks_passed": false,
+  "known_limitations": [
+    "Local 4B speech may mention an old left-eye limitation or narrate/relabel a movement; action selection is separate.",
+    "Request overlap does not prove simultaneous GPU execution."
+  ],
+  "deployment_pending": false,
+  "deployed_pid": 16860,
+  "runtime": {
+    "epoch": 1793447530.7844784,
+    "pid": 16860,
+    "semantic_policy_revision": 2,
+    "mode": "running",
+    "tracking": "coordinated",
+    "life_state": "active",
+    "action_library_enabled": true,
+    "microphone_enabled": true,
+    "speech_expression_linked": true,
+    "tracking_headroom_reserved_us": 80,
+    "inhibited_channels": [
+      6,
+      7,
+      16
+    ],
+    "right_wink_approved": true,
+    "error": ""
+  },
+  "physical_acceptance_pending": true,
+  "board_test_movements_sent": false,
+  "operator_authorized_runtime_restoration": true,
+  "epoch": 1793447530.8135529
+}

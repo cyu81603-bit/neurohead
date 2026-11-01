@@ -1,0 +1,27 @@
+{
+  "version": "v6.3",
+  "passed": true,
+  "startup_only": true,
+  "checks": [
+    {
+      "name": "board_restart",
+      "passed": true,
+      "tests": 15
+    },
+    {
+      "name": "lifelike_idle",
+      "passed": true,
+      "tests": 0
+    },
+    {
+      "name": "integrated_idle",
+      "passed": true,
+      "tests": 0
+    }
+  ],
+  "python_tests": 15,
+  "hardware_assets_unchanged": true,
+  "board_commands_sent": 0,
+  "camera_capture_started": false,
+  "microphone_capture_started": false
+}

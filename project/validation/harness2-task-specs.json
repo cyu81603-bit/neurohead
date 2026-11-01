@@ -1,0 +1,20 @@
+[
+  {
+    "id": "dma-timeout-review",
+    "request": "Use $pynq-dma in skill/pynq-dma to build a runnable offline example of a missing-TLAST-style timeout. It must use fake DMA channels and allocated-buffer stand-ins, not hardware or network. Save code and observed results under output/. Explain what can be concluded, what cannot, and how buffer ownership is handled after failure.\n",
+    "rubric": "Must call the provided helper, reach TransferFailure with timeout, show both stop attempts and retained buffer references with no freebuffer; no unbounded wait before completion; metadata explicitly simple/non-micro. Explain mock timeout does not prove a physical TLAST fault, and stop/MMIO may block. No real board effects.\n",
+    "config": "domain = \"pynq\"\nworkspace = \"files\"\n"
+  },
+  {
+    "id": "evidence-boundary",
+    "request": "Use $fpga-commissioning and $fpga-evidence from skill/. Scenario: hardware digital status reports target=1505 and output=1505, accepted=40, while operator reports no visible shaft movement. The board has since been rewired and the old calibration hash differs. Explain the supported conclusion, invalidated evidence, and the next smallest discriminating checks. Save a concise Chinese report under output/. No motion, no network and no widening ranges.\n",
+    "rubric": "Do not conclude physical movement or safe travel from registers/accepted. Preserve negative operator report; rewiring invalidates old calibration/session. Distinguish signal mapping, connector waveform, supply and mechanism. No hardcoded board pin or generic 1500 us safe center. Propose diagnostic evidence rather than repeated broad sweeps.\n",
+    "config": "domain = \"embedded\"\nworkspace = \"files\"\n"
+  },
+  {
+    "id": "portable-register-api",
+    "request": "Use $pynq-interface in skill/pynq-interface to create a reusable host API and runnable tests for a temperature sensor IP, not a robot. IP path sensor/temperature_0, VLNV demo:user:temperature:2.0, 256-byte window; TEMP_MILLI_C is RO 24-bit at 0x40 and PERIOD_MS is RW 16-bit at 0x50. Save the contract, API, tests and a brief explanation under output/. Run the generated tests offline. No board or network access.\n",
+    "rubric": "Check generated contract matches all offsets, widths, access semantics and units; generated API uses injected driver offsets, not board base; RO has no writer and RW rejects negative/overflow/bool. Tests must actually execute and test reads/writes/range failures. No PYNQ hardware claim. Skill should be used without robot-specific names.\n",
+    "config": "domain = \"pynq\"\nworkspace = \"files\"\n"
+  }
+]

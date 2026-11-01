@@ -1,0 +1,111 @@
+{
+  "version": "v6.3",
+  "passed": true,
+  "controller_checks": [
+    {
+      "module": "test_jaw_fixed_points.py",
+      "tests": 12,
+      "passed": true
+    },
+    {
+      "module": "test_jaw_one_direction.py",
+      "tests": 11,
+      "passed": true
+    },
+    {
+      "module": "test_jaw_seek.py",
+      "tests": 3,
+      "passed": true
+    },
+    {
+      "module": "test_jaw_pacing.py",
+      "tests": 2,
+      "passed": true
+    },
+    {
+      "module": "test_face_tracking_v5.py",
+      "tests": 11,
+      "passed": true
+    },
+    {
+      "module": "test_lifelike.py",
+      "tests": 18,
+      "passed": true
+    },
+    {
+      "module": "test_lifelike_v2.py",
+      "tests": 4,
+      "passed": true
+    },
+    {
+      "module": "test_lifelike_v3.py",
+      "tests": 3,
+      "passed": true
+    },
+    {
+      "module": "test_neck_speed_v4.py",
+      "tests": 4,
+      "passed": true
+    },
+    {
+      "module": "test_22_extension.py",
+      "tests": 5,
+      "passed": true
+    },
+    {
+      "module": "test_pc.py",
+      "tests": 5,
+      "passed": true
+    },
+    {
+      "module": "test_bench_exclusion.py",
+      "tests": 2,
+      "passed": true
+    }
+  ],
+  "controller_test_count": 80,
+  "dialogue_integration": {
+    "modules": [
+      "test_integration",
+      "test_conversation"
+    ],
+    "tests": 23,
+    "passed": true,
+    "source": "successful session subprocess run; not a live hardware test"
+  },
+  "startup_checks": {
+    "version": "v6.3",
+    "passed": true,
+    "startup_only": true,
+    "checks": [
+      {
+        "name": "board_restart",
+        "passed": true,
+        "tests": 15
+      },
+      {
+        "name": "lifelike_idle",
+        "passed": true,
+        "tests": 0
+      },
+      {
+        "name": "integrated_idle",
+        "passed": true,
+        "tests": 0
+      }
+    ],
+    "python_tests": 15,
+    "hardware_assets_unchanged": true,
+    "board_commands_sent": 0,
+    "camera_capture_started": false,
+    "microphone_capture_started": false
+  },
+  "total_python_tests": 118,
+  "non_jaw_pose_configs_unchanged": true,
+  "blink_remains_disabled": true,
+  "neck_profile_unchanged": true,
+  "board_commands_sent_during_integration": 0,
+  "continuous_speech_physical_verified": false,
+  "physical_endpoint_evidence": "build/verification/jaw_fixed_points_operator_20261030.json",
+  "backup_path": "F:\\NeuroHead\\builds\\nh22_v26_1029\\build\\backups\\before_v6_3_1793373812578665100"
+}

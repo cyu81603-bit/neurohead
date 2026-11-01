@@ -1,0 +1,9 @@
+# Release-only speech model
+/project/integration/embodied/models/sensevoice_small_int8/model.int8.onnx
+# Local runtime and Python caches
+__pycache__/
+*.pyc
+/.release_cache/
+/project/build/head_runtime_*.json
+/project/build/head_active.json
+/project/build/lifelike_api.json

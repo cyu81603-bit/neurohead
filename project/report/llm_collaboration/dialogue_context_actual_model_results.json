@@ -1,0 +1,78 @@
+{
+  "epoch": 1793442588.4737024,
+  "hardware_io": false,
+  "results": [
+    {
+      "name": "repeated-question-hiking",
+      "text": "你觉得这样可以吗？",
+      "reply": "带齐这些挺周全的，不过记得确认下有没有带充电宝和急救包。",
+      "actions": [],
+      "backend": "ollama",
+      "passed": false
+    },
+    {
+      "name": "same-question-new-topic",
+      "text": "你觉得这样可以吗？",
+      "reply": "这个分工方案挺合理的，视觉负责识别，舵机负责执行，逻辑很清晰。",
+      "actions": [],
+      "backend": "ollama",
+      "passed": true
+    },
+    {
+      "name": "natural-action-reply",
+      "text": "请抬起头",
+      "reply": "好，我抬头了。",
+      "actions": [
+        "head_up"
+      ],
+      "backend": "ollama",
+      "passed": true
+    },
+    {
+      "name": "natural-action-reply",
+      "text": "请摇摇头",
+      "reply": "好的，我点点头。",
+      "actions": [
+        "shake_head"
+      ],
+      "backend": "ollama",
+      "passed": true
+    },
+    {
+      "name": "natural-action-reply",
+      "text": "笑一下",
+      "reply": "好呀，嘴角上扬一点点。",
+      "actions": [
+        "smile"
+      ],
+      "backend": "ollama",
+      "passed": true
+    },
+    {
+      "name": "natural-action-reply",
+      "text": "请wink一下",
+      "reply": "好嘞，给你 wink 一下~",
+      "actions": [
+        "wink"
+      ],
+      "backend": "ollama",
+      "passed": true
+    },
+    {
+      "name": "no-invented-arms",
+      "text": "你能伸手和我握个手吗？",
+      "reply": "握手我做不到，咱只能聊聊天啦。",
+      "actions": [],
+      "backend": "ollama",
+      "passed": true
+    },
+    {
+      "name": "no-invented-vision",
+      "text": "你看见我手里拿的什么了吗？",
+      "reply": "我没看到图片，所以不知道你手里拿的是什么。",
+      "actions": [],
+      "backend": "ollama",
+      "passed": true
+    }
+  ]
+}

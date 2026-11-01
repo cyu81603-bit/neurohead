@@ -1,0 +1,10 @@
+test_head_session_keeps_all_channels_on_one_worker_while_ui_blocks (__main__.Tests.test_head_session_keeps_all_channels_on_one_worker_while_ui_blocks) ... ok
+test_late_snapshot_and_transient_log_failure_do_not_cancel_tracking (__main__.Tests.test_late_snapshot_and_transient_log_failure_do_not_cancel_tracking) ... ok
+test_panel_open_is_idle_and_requires_current_operator_confirmation (__main__.Tests.test_panel_open_is_idle_and_requires_current_operator_confirmation) ... ok
+test_reader_recovers_from_previous_boot_log_before_following (__main__.Tests.test_reader_recovers_from_previous_boot_log_before_following) ... ok
+test_target_remains_visible_while_worker_has_consumed_mailbox (__main__.Tests.test_target_remains_visible_while_worker_has_consumed_mailbox) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.817s
+
+OK

@@ -1,0 +1,2 @@
+NH22_RTL_PASS: reset, 22 configuration slots, independent AXI AW/W, backpressure, address decode, atomic commit, pulse width, slew, limits, watchdog hold/disable, disarm
+sim/tb_nh22.sv:96: $finish called at 800090000 (1ps)

@@ -1,0 +1,4 @@
+interface:
+  display_name: "FPGA 执行机构排障"
+  short_description: "Separate digital status, physical evidence and action intent"
+  default_prompt: "Use $fpga-commissioning to validate and adapt this FPGA workflow to the supplied board and interface."

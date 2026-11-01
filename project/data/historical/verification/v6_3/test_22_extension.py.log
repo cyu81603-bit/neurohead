@@ -1,0 +1,10 @@
+test_imported_eye_evidence_hashes_remain_guarded (__main__.ExtensionTests.test_imported_eye_evidence_hashes_remain_guarded) ... ok
+test_jaw_can_only_be_single_short_explicit_trial_until_observed (__main__.ExtensionTests.test_jaw_can_only_be_single_short_explicit_trial_until_observed) ... ok
+test_original_pins_unchanged_and_jaw_independent (__main__.ExtensionTests.test_original_pins_unchanged_and_jaw_independent) ... ok
+test_telemetry_last_output_and_old_wire_rejection (__main__.ExtensionTests.test_telemetry_last_output_and_old_wire_rejection) ... ok
+test_wire_version_lengths_and_jaw_value_and_timestamp (__main__.ExtensionTests.test_wire_version_lengths_and_jaw_value_and_timestamp) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.287s
+
+OK

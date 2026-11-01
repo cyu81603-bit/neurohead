@@ -1,0 +1,169 @@
+{
+  "source": "integration/embodied/qwen_brain.py",
+  "locations": [
+    {
+      "line": 31,
+      "text": "'wink是可用的右眼单眼动作，未指定侧别就用右眼；普通wink不要提左眼或拒绝。'"
+    },
+    {
+      "line": 32,
+      "text": "'仅当前明确要求左眼wink时，解释左眼会挡摄像头、不支持，不能答应，也不能转做右眼或别的动作。'"
+    },
+    {
+      "line": 33,
+      "text": "'复述历史的左眼限制不等于请求左眼；本轮“那就wink一下”仍是普通右眼动作。'"
+    },
+    {
+      "line": 36,
+      "text": "'结合提供的历史对话、摘要和动作意图记录，判断本轮用户真正提出的动作请求。返回JSON：wink_request、actions、action_reason，不写聊天回复。'"
+    },
+    {
+      "line": 38,
+      "text": "'只选择用户肯定要求的动作；没有默认表情、礼貌动作或完成交互流程的附加动作。禁止用smile/eyes_up替代不支持的左眼wink。'"
+    },
+    {
+      "line": 43,
+      "text": "'wink_request仅肯定请求眨单眼时填写default（未指明侧别）、right（明确右眼）、left（明确左眼）；其他情况填none。'"
+    },
+    {
+      "line": 44,
+      "text": "'未指定侧别wink为default，选择wink；左眼请求为left，actions不含wink。'"
+    },
+    {
+      "line": 46,
+      "text": "'例：wink→default,[\"wink\"]；那就wink一下→default,[\"wink\"]；'"
+    },
+    {
+      "line": 47,
+      "text": "'不要左眼，用右眼wink→right,[\"wink\"]；你刚说左眼不能wink，那就wink一下→default,[\"wink\"]；'"
+    },
+    {
+      "line": 48,
+      "text": "'请用左眼wink→left,[]；用左眼眨一下→left,[]；请左眼wink并笑一下→left,[\"smile\"]；不要wink→none,[]；'"
+    },
+    {
+      "line": 49,
+      "text": "'别wink，笑一下→none,[\"smile\"]；wink是什么意思→none,[]；'"
+    },
+    {
+      "line": 52,
+      "text": "'【侧别判断优先级】先看current_user_text本身：其中肯定请求wink/眨单眼但没写左眼或右眼，'"
+    },
+    {
+      "line": 53,
+      "text": "'即为全新default请求，必须选择wink，不继承历史里的左眼，也不继承历史拒绝。'"
+    },
+    {
+      "line": 54,
+      "text": "'历史用户“请用左眼wink”、助手“左眼不能眨”，本轮“那就wink一下”应为default,[\"wink\"]，不能判none或left。'"
+    },
+    {
+      "line": 61,
+      "text": "SYSTEM_PROMPT_QWEN35 = ("
+    },
+    {
+      "line": 97,
+      "text": "{\"role\": \"system\", \"content\": SYSTEM_PROMPT_QWEN35}"
+    },
+    {
+      "line": 154,
+      "text": "{\"role\": \"system\", \"content\": SYSTEM_PROMPT_QWEN35}"
+    },
+    {
+      "line": 158,
+      "text": "def capture_context(self):"
+    },
+    {
+      "line": 334,
+      "text": "messages = (context_snapshot if context_snapshot is not None else self.capture_context())['history']"
+    },
+    {
+      "line": 340,
+      "text": "# action or replace its spoken answer. Keep unrelated wink policy"
+    },
+    {
+      "line": 341,
+      "text": "# out of ordinary conversation to avoid priming repeated wink talk."
+    },
+    {
+      "line": 342,
+      "text": "facts=CAPABILITY_FACTS if any(w in user_text.lower() for w in ('wink','眨','左眼','右眼')) else ''"
+    },
+    {
+      "line": 349,
+      "text": "policy=SYSTEM_PROMPT_QWEN35+facts"
+    },
+    {
+      "line": 423,
+      "text": "def plan_actions(self,user_text,timeout=config.LLM_TIMEOUT_S,context_snapshot=None,cancelled=None):"
+    },
+    {
+      "line": 426,
+      "text": "if not str(user_text or '').strip():return dict(actions=[],action_reason='没有动作请求',wink_request='none',action_parse_error=None,latency_ms=0.)"
+    },
+    {
+      "line": 427,
+      "text": "snapshot=context_snapshot if context_snapshot is not None else self.capture_context()"
+    },
+    {
+      "line": 432,
+      "text": "self._action_context.append(dict(user_text=user_text,actions=list(actions),wink_request=side,"
+    },
+    {
+      "line": 435,
+      "text": "return dict(actions=actions,action_reason=reason,wink_request=side,action_parse_error=error,latency_ms=round((time.monotonic()-start)*1000,1))"
+    },
+    {
+      "line": 441,
+      "text": "snapshot=self.capture_context()"
+    },
+    {
+      "line": 444,
+      "text": "lambda:self.plan_actions(user_text,timeout,context_snapshot=snapshot)):"
+    },
+    {
+      "line": 463,
+      "text": "wink_request=m.get('wink_request'),status='intent_only_execution_unconfirmed')"
+    },
+    {
+      "line": 480,
+      "text": "wink_request=dict(type='string',enum=['none','default','right','left']),actions=ACTION_SCHEMA),"
+    },
+    {
+      "line": 481,
+      "text": "required=['action_reason','wink_request','actions']),"
+    },
+    {
+      "line": 489,
+      "text": "return actions,reason,obj.get('wink_request'),error"
+    },
+    {
+      "line": 500,
+      "text": "side=obj.get('wink_request')"
+    },
+    {
+      "line": 502,
+      "text": "if side not in ('none','default','right','left'):raise ValueError('wink_request必须是登记的侧别意图')"
+    },
+    {
+      "line": 503,
+      "text": "if side in ('none','left'):names=[name for name in names if name!='wink']"
+    },
+    {
+      "line": 504,
+      "text": "elif 'wink' not in names:names=validate_actions(names+['wink'])"
+    },
+    {
+      "line": 518,
+      "text": "2. expression: 仅限 \"笑\"、\"难过\"、\"wink\" 或 None；执行仍需舵机主控许可"
+    },
+    {
+      "line": 553,
+      "text": "if val.lower() in ('wink','wink_right','右眼wink'):"
+    },
+    {
+      "line": 554,
+      "text": "expression = 'wink'"
+    }
+  ]
+}

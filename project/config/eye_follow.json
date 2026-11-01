@@ -1,0 +1,44 @@
+{
+  "full_angle_or_jacobian_calibration_claimed": false,
+  "accepted_result": "build\\eye_pilot_1792902032620721000.result.json",
+  "camera_mount": "moves_with_eyeball",
+  "status": "operator_verified_basic_horizontal_follow",
+  "parameters": {
+    "duration_s": 20,
+    "provisional_image_dx_per_us": 0.002,
+    "gain": 0.8,
+    "max_rate_us_per_s": 200,
+    "limits_us": [
+      1100,
+      1900
+    ]
+  },
+  "direction_evidence": "build\\provisional_eye_feedback_direction.json",
+  "span_evidence": "build\\loaded_visible_20261025_120014.result.json",
+  "verified_files": {
+    "build\\loaded_visible_20261025_120014.result.json": "63e3b36390fd6eb587581ddb3e418f29d33f96cd66ba2ee59f858e9184212918",
+    "src\\pc\\image_feedback.py": "e53052d0585db9c878b945f4aa8f712060a180440327b08d2f9e5f5526620754",
+    "build\\eye_pilot_1792902032620721000.result.json": "304dd1b93aa647b40d34c6392d6493be27efca0314341afbd656b007f5aabd38",
+    "build\\provisional_eye_feedback_direction.json": "72e8cb6b76f0b6795b9270d930cd7be8f89bd4a444ce77c11eba7e86224da96e",
+    "src\\pc\\eye_camera_feedback.py": "86a9476a26879548b8f73aea9450e8bcc3edcd26ba8b5fbd89255a309dfaed54",
+    "src\\pc\\eye_vertical_settings.py": "36895787363750cad6f2e9434818fce5d7516b3b5a930129e1c8c6e5a276c758",
+    "src\\pc\\effective_pulse.py": "da18ec95a36a05b8d08276855c2555a43ce7cfb43473521e451b62103872e2ad"
+  },
+  "camera": "USB Cam",
+  "operation": {
+    "physical_long_run_verified": false,
+    "stop_on_panel_loss": true,
+    "mode": "continuous_user_requested"
+  },
+  "migration_original_verified_files": {
+    "build\\loaded_visible_20261025_120014.result.json": "63e3b36390fd6eb587581ddb3e418f29d33f96cd66ba2ee59f858e9184212918",
+    "src\\pc\\image_feedback.py": "e53052d0585db9c878b945f4aa8f712060a180440327b08d2f9e5f5526620754",
+    "build\\eye_pilot_1792902032620721000.result.json": "304dd1b93aa647b40d34c6392d6493be27efca0314341afbd656b007f5aabd38",
+    "build\\provisional_eye_feedback_direction.json": "72e8cb6b76f0b6795b9270d930cd7be8f89bd4a444ce77c11eba7e86224da96e",
+    "src\\pc\\eye_camera_feedback.py": "91cb1b1b8d27e6334f5943af6bc177aae83526e73d108557284a4ee2c9a32782",
+    "src\\pc\\eye_vertical_settings.py": "36895787363750cad6f2e9434818fce5d7516b3b5a930129e1c8c6e5a276c758",
+    "src\\pc\\effective_pulse.py": "35cf19f2061a430da39d529736525fbb7059ac4413070556f605bdbe0db8b8c4"
+  },
+  "migration_origin": "F:\\NeuroHead\\builds\\nh21_20261024\\config\\eye_follow.json",
+  "migration_scope": "accepted physical eye setup retained; protocol v3 port pending hardware verification"
+}

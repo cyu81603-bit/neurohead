@@ -1,0 +1,33 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 27-oct-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Oct 29 10:12:36 2026
+# Process ID         : 12724
+# Current directory  : F:/NeuroHead/builds/nh22_v26_1029
+# Command line       : vivado.exe -mode batch -notrace -source scripts/probe_2026.tcl -log build/migration/probe_2026.log -journal build/migration/probe_2026.jou
+# Log file           : F:/NeuroHead/builds/nh22_v26_1029/build/migration/probe_2026.log
+# Journal file       : F:/NeuroHead/builds/nh22_v26_1029\build/migration/probe_2026.jou
+# Running On         : LAPTOP-UBA351NA
+# Platform           : Windows 11
+# Operating System   : 26300
+# Processor Detail   : Intel(R) Core(TM) i9-14900HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 16779 MB
+# Swap memory        : 13421 MB
+# Total Virtual      : 30201 MB
+# Available Virtual  : 11971 MB
+#-----------------------------------------------------------
+source scripts/probe_2026.tcl -notrace
+VIVADO_VERSION=2026.1
+VIVADO_INSTALL=F:/2026.1/Vivado
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 604.207 ; gain = 268.496
+AVAILABLE_IP=xilinx.com:ip:processing_system7:5.5
+AVAILABLE_IP=xilinx.com:ip:proc_sys_reset:5.0
+AVAILABLE_IP=xilinx.com:ip:axi_interconnect:2.1
+VIVADO2026_DEVICE_IP_PROBE_PASS
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 29 10:12:59 2026...

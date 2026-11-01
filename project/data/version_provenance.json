@@ -1,0 +1,30 @@
+{
+  "version": "r6.7",
+  "source_root": "F:\\NeuroHead\\builds\\nh22_v26_1029",
+  "reverse_overlay_order": [
+    "before_neck_range_1793463048279931700",
+    "before_neck_waypoints_1793461618555452300",
+    "before_neck_takeover_1793460304594233600"
+  ],
+  "restored_files": {
+    "config/lifelike_v6.json": "before_neck_takeover_1793460304594233600",
+    "integration/embodied/embodied_app.py": "before_neck_takeover_1793460304594233600",
+    "integration/embodied/start_embodied.ps1": "before_neck_takeover_1793460304594233600",
+    "src/pc/action_library.py": "before_neck_range_1793463048279931700",
+    "src/pc/frontal_gaze.py": "before_neck_takeover_1793460304594233600",
+    "src/pc/head_control.py": "before_neck_range_1793463048279931700",
+    "src/pc/head_coordination.py": "before_neck_range_1793463048279931700",
+    "src/pc/head_follow_panel.py": "before_neck_takeover_1793460304594233600",
+    "src/pc/head_motion.py": "before_neck_takeover_1793460304594233600",
+    "src/pc/lifelike_control.py": "before_neck_takeover_1793460304594233600",
+    "src/pc/lifelike_panel.py": "before_neck_takeover_1793460304594233600",
+    "sim/test_neck_speed_v4.py": "before_neck_takeover_1793460304594233600"
+  },
+  "excluded_later_revisions": [
+    "r6.8",
+    "r6.9",
+    "r6.10"
+  ],
+  "runtime_behavior_changes": false,
+  "technical_report_excluded": true
+}

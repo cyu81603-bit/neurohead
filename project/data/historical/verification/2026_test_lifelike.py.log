@@ -1,0 +1,23 @@
+test_loopback_requires_key_and_rejects_raw_pwm (__main__.ApiTests.test_loopback_requires_key_and_rejects_raw_pwm) ... ok
+test_pcm_energy_distinguishes_silence_without_playback (__main__.AudioTests.test_pcm_energy_distinguishes_silence_without_playback) ... ok
+test_stop_during_decode_never_starts_late_playback (__main__.AudioTests.test_stop_during_decode_never_starts_late_playback) ... ok
+test_blink_bilateral_bounds_and_camera_hold (__main__.BehaviorTests.test_blink_bilateral_bounds_and_camera_hold) ... ok
+test_default_full_range_blink_has_bounded_subsecond_timing (__main__.BehaviorTests.test_default_full_range_blink_has_bounded_subsecond_timing) ... ok
+test_head_prefers_frontal_without_expanding_neck (__main__.BehaviorTests.test_head_prefers_frontal_without_expanding_neck) ... ok
+test_motion_stays_bounded_and_stop_returns_neutral (__main__.BehaviorTests.test_motion_stays_bounded_and_stop_returns_neutral) ... ok
+test_old_file_end_cannot_stop_new_tts (__main__.BehaviorTests.test_old_file_end_cannot_stop_new_tts) ... ok
+test_one_unverified_eye_prevents_automatic_blink (__main__.BehaviorTests.test_one_unverified_eye_prevents_automatic_blink) ... ok
+test_speech_silence_closes_mouth_and_voice_animates_brows (__main__.BehaviorTests.test_speech_silence_closes_mouth_and_voice_animates_brows) ... ok
+test_stale_tts_energy_and_bad_values (__main__.BehaviorTests.test_stale_tts_energy_and_bad_values) ... ok
+test_unverified_direction_outputs_no_faces (__main__.BehaviorTests.test_unverified_direction_outputs_no_faces) ... ok
+test_audio_ownership_and_raw_pwm_rejected (__main__.ControlTests.test_audio_ownership_and_raw_pwm_rejected) ... ok
+test_blink_holds_visual_integrator (__main__.ControlTests.test_blink_holds_visual_integrator) ... ok
+test_only_approved_channels_mix_and_pause_removes_faces (__main__.ControlTests.test_only_approved_channels_mix_and_pause_removes_faces) ... ok
+test_preview_only_selected_returns_and_requires_observation (__main__.ControlTests.test_preview_only_selected_returns_and_requires_observation) ... ok
+test_reverse_point_invalidates_automatic_approval (__main__.ControlTests.test_reverse_point_invalidates_automatic_approval) ... ok
+test_start_only_head_and_unapproved_stays_off (__main__.ControlTests.test_start_only_head_and_unapproved_stays_off) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.673s
+
+OK

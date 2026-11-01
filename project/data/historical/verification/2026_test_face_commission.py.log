@@ -1,0 +1,17 @@
+test_decoupled_neutral_does_not_verify_mounted_neutral (__main__.FaceTests.test_decoupled_neutral_does_not_verify_mounted_neutral) ... ok
+test_elapsed_trial_never_sent_cannot_be_recorded_as_observed (__main__.FaceTests.test_elapsed_trial_never_sent_cannot_be_recorded_as_observed) ... ok
+test_idle_config_all_channels_but_start_enables_only_head (__main__.FaceTests.test_idle_config_all_channels_but_start_enables_only_head) ... ok
+test_limits_require_actual_loaded_neutral_observation (__main__.FaceTests.test_limits_require_actual_loaded_neutral_observation) ... ok
+test_open_idle_no_packets_and_ordered_physical_pin_map (__main__.FaceTests.test_open_idle_no_packets_and_ordered_physical_pin_map) ... ok
+test_pause_drops_face_and_retains_head_without_ns (__main__.FaceTests.test_pause_drops_face_and_retains_head_without_ns) ... ok
+test_plain_head_after_commission_never_enables_face (__main__.FaceTests.test_plain_head_after_commission_never_enables_face) ... ok
+test_plan_rejects_duplicate_missing_and_overwide_windows (__main__.FaceTests.test_plan_rejects_duplicate_missing_and_overwide_windows) ... ok
+test_selected_only_return_and_face_mask_removed (__main__.FaceTests.test_selected_only_return_and_face_mask_removed) ... ok
+test_session_one_worker_continues_during_ui_block (__main__.FaceTests.test_session_one_worker_continues_during_ui_block) ... ok
+test_tracking_rejected_during_active_face_trial (__main__.FaceTests.test_tracking_rejected_during_active_face_trial) ... ok
+test_unknown_loaded_only_explicit_short_neutral (__main__.FaceTests.test_unknown_loaded_only_explicit_short_neutral) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.426s
+
+OK

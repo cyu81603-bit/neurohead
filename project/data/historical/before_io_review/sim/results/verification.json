@@ -1,0 +1,65 @@
+{
+  "version": "r6.7",
+  "passed": false,
+  "software_tests_passed": true,
+  "implementation_review_pending": true,
+  "skill_tests": 38,
+  "total_python_tests": 270,
+  "control": {
+    "tests": 169,
+    "passed": true,
+    "errors": 0,
+    "failures": 0
+  },
+  "checks": [
+    {
+      "name": "protocol",
+      "passed": true
+    },
+    {
+      "name": "rtl_compile",
+      "passed": true
+    },
+    {
+      "name": "rtl",
+      "passed": true
+    },
+    {
+      "name": "pwm50_compile",
+      "passed": true
+    },
+    {
+      "name": "pwm50",
+      "passed": true
+    },
+    {
+      "name": "integration",
+      "passed": true
+    },
+    {
+      "name": "dashboard",
+      "passed": true
+    },
+    {
+      "name": "skill",
+      "passed": true
+    },
+    {
+      "name": "implementation_metrics",
+      "passed": false,
+      "review_pending": true
+    },
+    {
+      "name": "lifelike_idle",
+      "passed": true
+    },
+    {
+      "name": "integrated_idle",
+      "passed": true
+    }
+  ],
+  "board_commands_sent": 0,
+  "physical_acceptance": false,
+  "c_recompiled": false,
+  "excluded_test": "test_board_restart.TclReadbackTests requires vendor debugger runtime DLL environment; historical results included separately"
+}

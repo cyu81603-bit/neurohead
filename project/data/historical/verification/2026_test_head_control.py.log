@@ -1,0 +1,22 @@
+test_all_five_mask_config_holding_and_neutral (__main__.CoreTests.test_all_five_mask_config_holding_and_neutral) ... ok
+test_coordination_requires_response_and_valid_targets (__main__.CoreTests.test_coordination_requires_response_and_valid_targets) ... ok
+test_eye_tracking_preserves_manual_neck_goal (__main__.CoreTests.test_eye_tracking_preserves_manual_neck_goal) ... ok
+test_fault_preserves_hold_policy_and_pause (__main__.CoreTests.test_fault_preserves_hold_policy_and_pause) ... ok
+test_idle_and_current_readiness_gate (__main__.CoreTests.test_idle_and_current_readiness_gate) ... ok
+test_natural_style_output_uses_small_vertical_steps_and_switch_keeps_pose (__main__.CoreTests.test_natural_style_output_uses_small_vertical_steps_and_switch_keeps_pose) ... ok
+test_stale_or_restarted_camera_holds_without_global_stop (__main__.CoreTests.test_stale_or_restarted_camera_holds_without_global_stop) ... ok
+test_successful_direction_survives_failed_repeat_and_requires_explicit_follow (__main__.CoreTests.test_successful_direction_survives_failed_repeat_and_requires_explicit_follow) ... ok
+test_changed_camera_configuration_invalidates_old_direction_even_same_uuid (__main__.MathTests.test_changed_camera_configuration_invalidates_old_direction_even_same_uuid) ... ok
+test_first_coordination_trial_stays_inside_100us_offsets (__main__.MathTests.test_first_coordination_trial_stays_inside_100us_offsets) ... ok
+test_identification_rejects_drift_missing_and_rank_loss (__main__.MathTests.test_identification_rejects_drift_missing_and_rank_loss) ... ok
+test_identifies_both_signs_and_cross_coupling (__main__.MathTests.test_identifies_both_signs_and_cross_coupling) ... ok
+test_local_direction_identification_keeps_drift_warning (__main__.MathTests.test_local_direction_identification_keeps_drift_warning) ... ok
+test_pose_envelope_reference_and_direction (__main__.MathTests.test_pose_envelope_reference_and_direction) ... ok
+test_preview_restart_reuses_only_confirmed_unchanged_setup (__main__.MathTests.test_preview_restart_reuses_only_confirmed_unchanged_setup) ... ok
+test_saved_direction_rejects_camera_reference_or_inverse_changes (__main__.MathTests.test_saved_direction_rejects_camera_reference_or_inverse_changes) ... ok
+test_synthetic_eye_neck_loop_transfers_eye_offset (__main__.MathTests.test_synthetic_eye_neck_loop_transfers_eye_offset) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.027s
+
+OK

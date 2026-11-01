@@ -1,0 +1,19 @@
+{
+  "epoch": 1793447530.7844784,
+  "pid": 16860,
+  "semantic_policy_revision": 2,
+  "mode": "running",
+  "tracking": "coordinated",
+  "life_state": "active",
+  "action_library_enabled": true,
+  "microphone_enabled": true,
+  "speech_expression_linked": true,
+  "tracking_headroom_reserved_us": 80,
+  "inhibited_channels": [
+    6,
+    7,
+    16
+  ],
+  "right_wink_approved": true,
+  "error": ""
+}

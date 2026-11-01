@@ -1,0 +1,31 @@
+{
+  "revision": "R5.2",
+  "camera_protected_channels": [
+    6,
+    7
+  ],
+  "control_tests": 82,
+  "integration_tests": 37,
+  "gui_idle_selftests": 2,
+  "passed": true,
+  "deployment_pending": false,
+  "hardware_movement_sent": false,
+  "physical_acceptance_pending": true,
+  "epoch": 1793432970.9462683,
+  "deployed_pid": 49032,
+  "deployed_epoch": 1793433270.8536155,
+  "runtime": {
+    "owner_pid": 49032,
+    "mode": "idle",
+    "life_state": "off",
+    "action_library_enabled": false,
+    "camera_lid_guard_revision": 1,
+    "wink_side": "right",
+    "life_blocked": {
+      "6": "左上眼帘遮挡摄像头；所有自动表情含开启中位及回位均不输出，仅保留显式单路手动预览",
+      "7": "用户报告开启表情时左下眼帘动作干扰视觉；自动输出屏蔽，手动单路调试保留",
+      "16": "动作方向尚未观察确认"
+    },
+    "error": ""
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "total_tests": 142,
+  "modules": [
+    {
+      "module": "test_handoff_client.py",
+      "tests": 2,
+      "passed": true
+    },
+    {
+      "module": "test_neck_speed_v4.py",
+      "tests": 4,
+      "passed": true
+    },
+    {
+      "module": "test_lifelike_v3.py",
+      "tests": 3,
+      "passed": true
+    },
+    {
+      "module": "test_lifelike_v2.py",
+      "tests": 4,
+      "passed": true
+    },
+    {
+      "module": "test_camera_recovery.py",
+      "tests": 5,
+      "passed": true
+    },
+    {
+      "module": "test_lifelike.py",
+      "tests": 18,
+      "passed": true
+    },
+    {
+      "module": "test_22_extension.py",
+      "tests": 5,
+      "passed": true
+    },
+    {
+      "module": "test_pc.py",
+      "tests": 5,
+      "passed": true
+    },
+    {
+      "module": "test_face_commission.py",
+      "tests": 12,
+      "passed": true
+    },
+    {
+      "module": "test_head_transport.py",
+      "tests": 7,
+      "passed": true
+    },
+    {
+      "module": "test_head_motion.py",
+      "tests": 8,
+      "passed": true
+    },
+    {
+      "module": "test_head_control.py",
+      "tests": 17,
+      "passed": true
+    },
+    {
+      "module": "test_head_session.py",
+      "tests": 5,
+      "passed": true
+    },
+    {
+      "module": "test_neck_session.py",
+      "tests": 2,
+      "passed": true
+    },
+    {
+      "module": "test_neck_control.py",
+      "tests": 9,
+      "passed": true
+    },
+    {
+      "module": "test_neck_presets.py",
+      "tests": 7,
+      "passed": true
+    },
+    {
+      "module": "test_neck_transport.py",
+      "tests": 6,
+      "passed": true
+    },
+    {
+      "module": "test_neck_panel.py",
+      "tests": 4,
+      "passed": true
+    },
+    {
+      "module": "test_board_restart.py",
+      "tests": 15,
+      "passed": true
+    },
+    {
+      "module": "test_migration2026.py",
+      "tests": 4,
+      "passed": true
+    }
+  ],
+  "idle_gui_checks": 3,
+  "hardware_programming": false
+}

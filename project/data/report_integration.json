@@ -1,0 +1,12 @@
+{
+  "report_file": "report/neurohead_design_report.pdf",
+  "source_name": "NeuroHead智能仿生头_设计报告.pdf",
+  "source_sha256": "65480ebae0095fd2bda562bd028d6c976109ee8dbc3b2237ac32055430a368e5",
+  "bytes": 2902733,
+  "source_archive_sha256": "e5e00c42d881cf15281d725ff60515caabe547db7f8e3a42c65d194c495670f3",
+  "added_by_request_on": "2026-11-02",
+  "output_archive": "NeuroHead智能仿生头.rar",
+  "technical_report_included": true,
+  "final_pdf_sha256": "65480ebae0095fd2bda562bd028d6c976109ee8dbc3b2237ac32055430a368e5",
+  "report_revision_scope": "PDF replaced directly with the user-provided desktop PDF on 2026-11-02; no Word conversion."
+}

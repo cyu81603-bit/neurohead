@@ -1,4 +1,4 @@
-# NeuroHead R6.7 最终提交工程（不含技术报告）
+# NeuroHead R6.7 最终提交工程
 
 基于 AX7020 / AMD Zynq-7000 xc7z020clg400-2 的22路机器人头。最终功能版本冻结为 R6.7：本地语音/视觉交谈、共享上下文的并发聊天与动作判断、眼颈追踪、表情与语音嘴形、右眼wink和自然语言动作库。保留同学原三栏语义界面与只读视觉流程网页。
 
@@ -19,12 +19,13 @@
 |data/|历史板测、原始模型输出、版本来源、实测与参考对照|
 |skill/|替换后的五项FPGA/PYNQ技能，保留原包脚本与模板|
 |tests/ 与 validation/|新技能包的离线测试与原始验证记录|
-|report/llm_collaboration/|真实提示词所在源码、实际模型回答与纠错记录；无技术报告|
+|report/neurohead_design_report.pdf|用户提供的设计报告PDF，按原文件直接打包|
+|report/llm_collaboration/|真实提示词所在源码、实际模型回答与纠错记录|
 |vendor/|视觉源码与YuNet模型及原许可|
 |support/|原始眼部禁止记录、PS BSP源码/头文件/静态库与依赖布局说明|
 |environment/|原环境版本、依赖清单、外部资产说明|
 
-工程目录使用英文路径；新技能保留SKILL.md、README.md等原包标准名称。上板工程由Tcl重建，不提交含机器绝对路径的大型Vivado缓存。技术报告按要求排除。
+工程目录使用英文路径；新技能保留SKILL.md、README.md等原包标准名称。上板工程由Tcl重建，不提交含机器绝对路径的大型Vivado缓存。用户提供的设计报告PDF纳入report/目录，未从Word转换。提交归档使用RAR格式，文件名为NeuroHead智能仿生头.rar。
 
 ## 从零复现（Windows）
 
@@ -51,9 +52,9 @@ R6.7自动颈部范围为左右±100μs、俯仰±100μs；追踪速度50/35μs/
 
 ## 提交前人工项
 
-见submission_checklist.md：团队/作者/组别、团队原创部分开源许可和仓库链接需由团队填写；第三方模型与BSP遵循原许可。本包不冒填身份、不自动上传。指南未在所读3.3.5节单列视频要求，若报名系统另有视频/图片/命名要求需由团队补传。技术报告未生成。
+见submission_checklist.md：团队/作者/组别、团队原创部分开源许可和仓库链接需由团队填写；第三方模型与BSP遵循原许可。本包不冒填身份、不自动上传。指南未在所读3.3.5节单列视频要求，若报名系统另有视频/图片/命名要求需由团队补传。用户提供的设计报告PDF位于report/neurohead_design_report.pdf，按原PDF直接纳入。
 
-验证结果：sim/results/verification.json；本轮C使用原可执行文件（--prebuilt-protocol），未重新编译；xsdb依赖的单项Tcl检查未重跑。构建与运行的外部依赖及许可边界已单列，见environment/reproduction.md、third_party.md。
+验证结果：sim/results/verification.json；本轮离线报告为276项Python检查全部通过。C协议使用包内预编译程序（--prebuilt-protocol），未重新编译；xsdb依赖的单项Tcl检查未重跑。本轮没有重新执行Vivado综合实现或向板卡发送命令，实物验收标记为未完成。构建与运行的外部依赖及许可边界已单列，见environment/reproduction.md、third_party.md。
 
 ## 技能包替换
 

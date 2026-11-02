@@ -25,7 +25,7 @@ def main():
    with z.open(R.name+'/'+name) as f:
     for b in iter(lambda:f.read(1024*1024),b''):h.update(b)
    assert h.hexdigest()==want,name
- result=dict(version='r6.7',archive=str(archive),files=len(paths),bytes=archive.stat().st_size,sha256=digest(archive),all_member_hashes_verified=True,technical_report_included=False)
+ result=dict(version='r6.7',archive=str(archive),files=len(paths),bytes=archive.stat().st_size,sha256=digest(archive),all_member_hashes_verified=True,technical_report_included=(R/'report/neurohead_design_report.pdf').is_file())
  archive.with_suffix('.sha256').write_text(result['sha256']+'  '+archive.name+'\n',encoding='utf-8')
  archive.with_suffix('.verification.json').write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps(result,indent=2))
 if __name__=='__main__':main()

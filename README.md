@@ -24,6 +24,7 @@ e5e00c42d881cf15281d725ff60515caabe547db7f8e3a42c65d194c495670f3
 |project/skill|五项可复用FPGA/PYNQ技能及脚本|
 |project/scripts|构建、启动、恢复与验证入口|
 |project/environment|工具链与新机器复现说明|
+|report|设计报告PDF|
 |tools|Release模型恢复工具|
 
 原工程说明见[project/readme.md](project/readme.md)，复现条件见[project/environment/reproduction.md](project/environment/reproduction.md)。project子目录对应完整ZIP内的工程根目录。
@@ -59,4 +60,4 @@ R6.7冻结控制与对话策略；PC执行视觉及本地模型推理，AX7020 P
 
 仓库现有LICENSE保持原样，第三方组件分别遵循其自身许可与版权声明。模型、AMD/Xilinx BSP、视觉支持代码及同学界面来源见[第三方说明](project/third_party.md)。第三方内容不因仓库根许可证而改授许可。
 
-本仓库不包含另行准备的技术报告；赛事提交材料以团队最终上传内容为准。
+[设计报告PDF](report/neurohead_r6_7_design_report.pdf)已收录于report目录；赛事提交材料以团队最终上传内容为准。
